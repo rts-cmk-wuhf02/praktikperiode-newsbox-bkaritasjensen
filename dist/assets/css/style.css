@@ -1,0 +1,9 @@
+body {
+  margin: 0 auto; }
+
+nav {
+  display: flex;
+  justify-content: space-between; }
+
+main {
+  width: 100%; }

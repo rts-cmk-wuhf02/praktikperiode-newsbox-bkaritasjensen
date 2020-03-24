@@ -1,10 +1,11 @@
 @import '_base';
-@import '_text-colors';
-@import '_nav';
-@import '_main';
-@import '_footer';
 @import '_theme';
 
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
 
 
 

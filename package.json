@@ -1,5 +1,5 @@
 {
-  "name": "iplaymusic-bkaritasjensen",
+  "name": "newsbox-bkaritasjensen",
   "version": "1.0.0",
   "description": "Opgaven går ud på at opsætte et website der primært er mobiltvenligt, og er drevet af en simpel datastruktur. Opgaven er tiltænkt som en **individuel opgave**, men I må selvfølgelig gerne vende ideer og koncepter med hinanden.",
   "main": "gulpfile.js",
@@ -23,7 +23,8 @@
     "gulp-imagemin": "^6.1.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "tailwindcss": "^1.2.0"
   },
   "bugs": {
     "url": "https://github.com/rts-cmk-wuhf02/iplaymusic-bkaritasjensen/issues"

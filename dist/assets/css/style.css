@@ -1,9 +1,8 @@
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Kosugi Maru', sans-serif; */ }
 
-nav {
-  display: flex;
-  justify-content: space-between; }
-
-main {
-  width: 100%; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -7,15 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Newsbox</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/80821de148.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <main class="main__newsbox">
-	<nav>
+	<div class="flex justify-center">
     <a onclick="goBack()"><i class="fas fa-chevron-left"></i></a>
     <h1>Newsbox</h1>
     <a><i class="fas fa-cog"></i></a>
-</nav>
+</div>
 	<form>
 		<input type="text" placeholder="Search news" name="search">
 		<button type="submit"><i class="fa fa-search"></i></button>
@@ -36,11 +38,11 @@
 
 <!-------------------------------------LAVER ARTICLES TEMPLATES-------------------->
 	<template id="newsboxArticle-template">
-		<article class="newsbox__outherBox">
-			<a class="newsbox__article" href="">
-				<img class="newsbox__image" src="" alt="image featured">
-				<h4 class="newsbox__headetText"></h4>
-				<p class="newsbox__text"></p>
+		<article class="">
+			<a class="" href="">
+				<img class="" src="" alt="image featured">
+				<h4 class=""></h4>
+				<p class=""></p>
 			</a>
 		</article>
 	</template>

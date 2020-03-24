@@ -1,100 +1,109 @@
-const gulp = require("gulp");//Så henter den Gulp og selv finder den i Node mappen.
+const gulp = require("gulp");
+const postcss = require("gulp-postcss");
+const postcssimport = require("postcss-import")
+const tailwindcss = require("tailwindcss");
+const autoprefixer = require("autoprefixer");
+const minify = require("gulp-minify");
 const ejs = require("gulp-ejs");
-const rename = require("gulp-rename");//rename omdøber filen til noget andet.
+const rename = require("gulp-rename");
 const connect = require("gulp-connect");
-const sass = require('gulp-sass');
-const babel = require('gulp-babel');
-const imagemin = require('gulp-imagemin');
+const babel = require("gulp-babel");
 
-sass.compiler = require("node-sass");
 
-function html(done){
-	gulp.src("./src/html/templates/*.ejs") //Gulp skal hente en "ting" et sted fra. * - betyder der kan stå hvad som helst.
-		.pipe(ejs())//Pipe transportere noget fra et sted....
-		.pipe(rename(function(path){
-			if (path.basename != "index"){//Hvis fil navnet ikke er lig med index,
-				path.dirname = path.basename; //Ligger den ind i mappe som hedder basename,
-				path.basename = "index";//Selve filen skal hedde "index",
-			}
-			path.extname = ".html";//Fortæller at filen skal hedde .html
-		}))
-		.pipe(gulp.dest("./dist"))//... Til et andet sted. Til mappen dist.
-		.pipe(connect.reload());
-	done();
+function html(next) {
+    gulp.src("./src/html/templates/**/*.ejs")
+        .pipe(ejs().on("error", err => { console.error(err); }))
+        .pipe(rename(function(path) {
+            if(path.basename !== "index") {
+                path.dirname = path.basename;
+                path.basename = "index";
+            }
+
+            path.extname = ".html";
+        }))
+        .pipe(gulp.dest("./dist/"))
+        .pipe(connect.reload());
+
+    next();
 }
 
-function watchhtml(){//Holder øje med html filerne, hvis der laves ændringer.
-	gulp.watch("./src/html/**/*.ejs", { ignoreInitial: false}, html); //** - alle mapper i html * - alle filer med .ejs
+function images(next) {
+    gulp.src("./src/assets/images/**/*")
+        .pipe(gulp.dest("./dist/assets/images/"))
+        .pipe(connect.reload());
+
+    next();
 }
 
-function scss(done){
-	gulp.src("./src/css/**/*.scss")
-		.pipe(sass())
-		.pipe(gulp.dest("./dist/assets/css"))
-		.pipe(connect.reload());
-	done();
+function css(next) {
+    gulp.src("./src/css/**/*.css")
+        .pipe(postcss([
+            tailwindcss,
+            postcssimport,
+            autoprefixer,
+        ]))
+        .pipe(gulp.dest("./dist/assets/css"))
+        .pipe(connect.reload());
+
+    next();
 }
 
-function watchScss(){
-	gulp.watch("./src/css/**/*.scss", { ignoreInitial: false }, scss);
+function js(next) {
+    gulp.src("./src/js/**/*.js")
+        .pipe(babel({
+            presets: ['@babel/env']
+        }).on("error", err => console.log(err)))
+        .pipe(minify({
+            ext: {
+                min: ".js"
+            },
+            noSource: true
+        }).on("error", err => console.error(err)))
+        .pipe(gulp.dest("./dist/assets/js"))
+        .pipe(connect.reload());
+
+    next();
 }
 
 
-function javaScript(done){
-	gulp.src("./src/js/**/*.js")
-		.pipe(babel({//Laver et rør hvor den skal køre igennem
-			presets: ['@babel/env']
-		}))
-		.pipe(gulp.dest("./dist/assets/js"))//og hvor røret skal slutte.
-		.pipe(connect.reload());//Reloader javaScript
-	done();
+// Watchers
+function watchHtml() {
+    gulp.watch("./src/html/**/*.ejs", { ignoreInitial: false }, html);
 }
 
-function watchJavaScript(){
-	gulp.watch("./src/js/**/*.js", { ignoreInitial: false }, javaScript);//False gør at det, den gør det lige så snart den starter og ikke kun når den kører.
+function watchImages() {
+    gulp.watch("./src/assets/images/**/*", { ignoreInitial: false }, images);
 }
 
-function json(done){
-	gulp.src("./src/json/*.json")
-		.pipe(gulp.dest("./dist/data"))//dest = destanation.
-		.pipe(connect.reload());
-	done();
+function watchCss() {
+    gulp.watch("./src/css/**/*.css", { ignoreInitial: false }, css);
 }
 
-function watchjson(){
-	gulp.watch("./src/json/**/*.json", { ignoreInitial: false}, json);
+function watchJs() {
+    gulp.watch("./src/js/**/*.js", { ignoreInitial: false }, js);
 }
 
-function images(done){
-	gulp.src("./src/images/*")
-		.pipe(imagemin())
-		.pipe(gulp.dest("dist/assets/images"))
-		.pipe(connect.reload());
-	done();
-}
 
-function watchImages(){
-	gulp.watch("./src/images/*", { ignoreInitial: false }, images);
-}
+gulp.task("dev", function(next) {
+    watchHtml();
+    watchImages();
+    watchCss();
+    watchJs();
+    
+    connect.server({
+        livereload: true,
+        root: "dist"
+    });
 
-gulp.task("dev", function(done){//Gulp packgets gør - function .....
-	watchhtml();//Kører functionen 
-	watchScss();
-	watchJavaScript();
-	watchjson();
-	watchImages();
-	connect.server({ //Bruger connect packget
-		livereload: true,//Reload browseren, ved ændringer
-		root: "dist"//Hvor skal serveren eksistere
-	})
-	done();
-}); 
+    next();
+});
 
-gulp.task("build", function(done) {
-	html(done);
-	scss(done);
-	javaScript(done);
-	json(done);
-	images(done);
-	done();
+gulp.task("build", function(next) {
+    html(next);
+    images(next);
+    css(next);
+    js(next);
+    
+    
+    next();
 });

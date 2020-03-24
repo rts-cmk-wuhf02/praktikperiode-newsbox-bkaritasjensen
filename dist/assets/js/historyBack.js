@@ -1,5 +1,1 @@
-"use strict";
-
-function goBack() {
-  window.history.back();
-}
+"use strict";function goBack(){window.history.back()}

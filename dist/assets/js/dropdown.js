@@ -1,17 +1,1 @@
-"use strict";
-
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-} // Close the dropdown if the user clicks outside of it
-
-
-window.onclick = function (e) {
-  if (!e.target.matches('.dropbtn')) {
-    console.log(e);
-    var myDropdown = document.getElementById("myDropdown");
-
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-};
+"use strict";function myFunction(){document.getElementById("myDropdown").classList.toggle("show")}window.onclick=function(o){if(!o.target.matches(".dropbtn")){console.log(o);var t=document.getElementById("myDropdown");t.classList.contains("show")&&t.classList.remove("show")}};

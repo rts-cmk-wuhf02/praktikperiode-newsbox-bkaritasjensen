@@ -2,32 +2,37 @@
   "name": "newsbox-bkaritasjensen",
   "version": "1.0.0",
   "description": "Opgaven går ud på at opsætte et website der primært er mobiltvenligt, og er drevet af en simpel datastruktur. Opgaven er tiltænkt som en **individuel opgave**, men I må selvfølgelig gerne vende ideer og koncepter med hinanden.",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "gulp dev"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rts-cmk-wuhf02/iplaymusic-bkaritasjensen.git"
+    "url": "git+https://github.com/rts-cmk-wuhf02/praktikperiode-newsbox-bkaritasjensen"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "ejs": "^2.7.1",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "animate.css": "^3.7.2",
+    "animejs": "^3.1.0",
+    "autoprefixer": "^9.7.4",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-connect": "^5.7.0",
-    "gulp-ejs": "^4.1.2",
-    "gulp-imagemin": "^6.1.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "node-sass": "^4.12.0",
+    "gulp-ejs": "^5.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "postcss-import": "^12.0.1",
     "tailwindcss": "^1.2.0"
   },
   "bugs": {
-    "url": "https://github.com/rts-cmk-wuhf02/iplaymusic-bkaritasjensen/issues"
+    "url": "https://github.com/rts-cmk-wuhf02/praktikperiode-newsbox-bkaritasjensen/issues"
   },
-  "homepage": "https://github.com/rts-cmk-wuhf02/iplaymusic-bkaritasjensen#readme"
+  "homepage": "https://github.com/rts-cmk-wuhf02/praktikperiode-newsbox-bkaritasjensen#readme"
 }

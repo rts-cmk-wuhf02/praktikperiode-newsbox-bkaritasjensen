@@ -1,1 +1,0 @@
-"use strict";function myFunction(){document.getElementById("myDropdown").classList.toggle("show")}window.onclick=function(o){if(!o.target.matches(".dropbtn")){console.log(o);var t=document.getElementById("myDropdown");t.classList.contains("show")&&t.classList.remove("show")}};

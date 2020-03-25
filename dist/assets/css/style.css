@@ -10310,6 +10310,11 @@ video {
   transition-duration: 1000ms;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -78090,6 +78095,4 @@ video {
     transition-duration: 1000ms;
   }
 }
-
-
 

@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Top Stories</title>
+    <link>https://www.nytimes.com</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2020 The New York Times Company</copyright>
+    <lastBuildDate>Wed, 25 Mar 2020 06:55:55 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2020 06:55:55 +0000</pubDate>
+    <image>
+      <title>NYT &gt; Top Stories</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com</link>
+    </image>
+    <item>
+      <title>Coronavirus Live Updates: White House and Congress Reach $2 Trillion Stimulus Deal</title>
+      <link>https://www.nytimes.com/2020/03/25/world/coronavirus-news-maps.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/25/world/coronavirus-news-maps.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/25/world/coronavirus-news-maps.html" rel="standout"></atom:link>
+      <description>The legislation, which will send direct payments and jobless benefits to individuals, is the biggest economic stimulus package in modern American history.</description>
+      <pubDate>Wed, 25 Mar 2020 06:49:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stimulus (Economic)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Modi, Narendra</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/03/world/coronavirus-map-promo/coronavirus-map-promo-moth-v185.png" width="151"></media:content>
+      <media:credit>The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Stock Markets in Asia Continue Global Surge: Live Updates</title>
+      <link>https://www.nytimes.com/2020/03/25/business/stock-market-today-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/25/business/stock-market-today-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/25/business/stock-market-today-coronavirus.html" rel="standout"></atom:link>
+      <description>Live updates on stock market and business news during the coronavirus outbreak.</description>
+      <pubDate>Wed, 25 Mar 2020 06:31:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stocks and Bonds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/25/world/25markets-briefing-cong/25markets-briefing-cong-moth.jpg" width="151"></media:content>
+      <media:credit>Anna Moneymaker/The New York Times</media:credit>
+      <media:description>Mitch McConnell, the Senate majority leader, in Washington on Tuesday.</media:description>
+    </item>
+    <item>
+      <title>Slow Response to the Coronavirus Measured in Lost Opportunity</title>
+      <link>https://www.nytimes.com/2020/03/24/us/politics/coronavirus-ventilators.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/us/politics/coronavirus-ventilators.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/us/politics/coronavirus-ventilators.html" rel="standout"></atom:link>
+      <description>If the administration had reacted to the ventilator shortage in February, a private sector effort starting now might have made lifesaving equipment in mid- to late April. Now it is unlikely to be before June.</description>
+      <dc:creator>David E. Sanger, Zolan Kanno-Youngs and Ana Swanson</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 02:35:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medical Devices</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ventilators (Medical)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense Production Act</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tests (Medical)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Protective Clothing and Gear</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Masks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">3M Company</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Central Intelligence Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Defense Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Emergency Management Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ford Motor Co</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">General Electric Company</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Medtronic Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hackett, Jim</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/us/politics/24dc-virus-response/24dc-virus-response-moth.jpg" width="151"></media:content>
+      <media:credit>Stephanie Keith for The New York Times</media:credit>
+      <media:description>The federal government supplied 400 ventilators to New York, which now accounts for more than 25,000 cases of the coronavirus.</media:description>
+    </item>
+    <item>
+      <title>What I Learned When My Husband Got Sick With Coronavirus</title>
+      <link>https://www.nytimes.com/2020/03/24/magazine/coronavirus-family.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/magazine/coronavirus-family.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/magazine/coronavirus-family.html" rel="standout"></atom:link>
+      <description>Our world became one of isolation, round-the-clock care, panic and uncertainty — even as society carried on around us with all too few changes.</description>
+      <dc:creator>Jessica Lustig</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 22:56:00 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Families and Family Life</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/magazine/24mag-corona/24mag-corona-moth.jpg" width="151"></media:content>
+      <media:credit>Photo illustration by Delcan &amp; Co.</media:credit>
+    </item>
+    <item>
+      <title>Free Access to Coronavirus Coverage</title>
+      <link>https://www.nytimes.com/news-event/coronavirus</link>
+      <guid isPermaLink="true">https://www.nytimes.com/news-event/coronavirus</guid>
+      <atom:link href="https://www.nytimes.com/news-event/coronavirus" rel="standout"></atom:link>
+      <description>The Times is providing free access to our most important updates and guidance on the global coronavirus crisis.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 06:23:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coronavirus in N.Y.: ‘Astronomical’ Surge Leads to Quarantine Warning</title>
+      <link>https://www.nytimes.com/2020/03/24/nyregion/coronavirus-new-york-apex-andrew-cuomo.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/nyregion/coronavirus-new-york-apex-andrew-cuomo.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/nyregion/coronavirus-new-york-apex-andrew-cuomo.html" rel="standout"></atom:link>
+      <description>The White House advised people who have passed through or left New York City that they should place themselves in a 14-day quarantine.</description>
+      <dc:creator>Alan Feuer and Brian M. Rosenthal</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 02:01:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/nyregion/24nyvirus-leadall1/24nyvirus-leadall1-moth.jpg" width="151"></media:content>
+      <media:credit>Stephanie Keith for The New York Times</media:credit>
+      <media:description>New York is projected to need up to 140,000 hospital beds when only about 53,000 are now available for use, the governor said.</media:description>
+    </item>
+    <item>
+      <title>How Andrew Cuomo, New York Governor, Became the Politician of the Moment</title>
+      <link>https://www.nytimes.com/2020/03/24/nyregion/governor-andrew-cuomo-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/nyregion/governor-andrew-cuomo-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/nyregion/governor-andrew-cuomo-coronavirus.html" rel="standout"></atom:link>
+      <description>With his coronavirus briefings, Gov. Andrew Cuomo has emerged as an authoritative voice in the crisis.</description>
+      <dc:creator>Jesse McKinley and Shane Goldmacher</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 01:41:55 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Speeches and Statements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/nyregion/24vid-Cuomo-Live-still/merlin_170879628_9c9368f7-1344-43bd-a848-0e98f75afd00-moth.jpg" width="151"></media:content>
+      <media:credit>Mike Segar/Reuters</media:credit>
+    </item>
+    <item>
+      <title>Subway Service Is Cut by a Quarter Because of Coronavirus</title>
+      <link>https://www.nytimes.com/2020/03/24/nyregion/coronavirus-nyc-mta-cuts-.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/nyregion/coronavirus-nyc-mta-cuts-.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/nyregion/coronavirus-nyc-mta-cuts-.html" rel="standout"></atom:link>
+      <description>A staggering loss of ridership hits the subway system, and 52 M.T.A. workers are infected with the coronavirus.</description>
+      <dc:creator>Christina Goldbaum</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 00:30:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Subways</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Transit Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Railroads</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Metropolitan Transportation Authority</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Metro-North Commuter Railroad</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New Jersey Transit</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/nyregion/HFOnyvirus-transit2/HFOnyvirus-transit2-moth.jpg" width="151"></media:content>
+      <media:credit>Stephanie Keith for The New York Times</media:credit>
+      <media:description>Subway stations are nearly deserted, with ridership down 87 percent because of the coronavirus.</media:description>
+    </item>
+    <item>
+      <title>Coronavirus Has Hospitals in Desperate Need of Equipment. These Innovators Are Racing to Help.</title>
+      <link>https://www.nytimes.com/video/us/100000007046207/coronavirus-innovative-equipment.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/us/100000007046207/coronavirus-innovative-equipment.html</guid>
+      <atom:link href="https://www.nytimes.com/video/us/100000007046207/coronavirus-innovative-equipment.html" rel="standout"></atom:link>
+      <description>Health care workers are facing a serious shortage of critical equipment needed to treat the coronavirus. We spoke to the makers who are building innovative protective gear and ventilators for them.</description>
+      <dc:creator>Haley Willis, Robin Stein, Natalie Reneau and Drew Jordan</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 03:48:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Innovation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medical Devices</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Do It Yourself</category>
+    </item>
+    <item>
+      <title>A Medical Class ‘Minted by the Pandemic’</title>
+      <link>https://www.nytimes.com/2020/03/24/health/medical-school-coronavirus-students.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/health/medical-school-coronavirus-students.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/health/medical-school-coronavirus-students.html" rel="standout"></atom:link>
+      <description>Across the nation, medical students are graduating directly into the path of an epic health crisis.</description>
+      <dc:creator>Emma Goldberg</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 04:23:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicine and Health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shortages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Doctors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medical Schools</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Covid-19 Student Service Corps</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-health</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/science/24VIRUS-MEDSCHOOLS1/24VIRUS-MEDSCHOOLS1-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Stephen Speranza for The New York Times</media:credit>
+      <media:description>David Edelman, a fifth-year medical student at Columbia University, helped establish the Covid-19 Student Service Corps to support healthcare providers. “There’s so much to be done,” he said.</media:description>
+    </item>
+    <item>
+      <title>Some Doctors Stockpile Trial Coronavirus Drugs for Themselves, States Say</title>
+      <link>https://www.nytimes.com/2020/03/24/business/doctors-buying-coronavirus-drugs.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/business/doctors-buying-coronavirus-drugs.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/business/doctors-buying-coronavirus-drugs.html" rel="standout"></atom:link>
+      <description>The stockpiling has become so worrisome that pharmacy boards in many states have issued emergency restrictions on how the drugs can be dispensed.</description>
+      <dc:creator>Ellen Gabler</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 22:41:41 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stockpiling</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/multimedia/24virus-prescribe-2/24virus-prescribe-2-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Ramin Rahimian for The New York Times</media:credit>
+      <media:description>A handful of state pharmacy boards have issued emergency restrictions on how the drugs can be dispensed.</media:description>
+    </item>
+    <item>
+      <title>Coronavirus in India: Modi Orders Total Lockdown of 21 Days</title>
+      <link>https://www.nytimes.com/2020/03/24/world/asia/india-coronavirus-lockdown.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/world/asia/india-coronavirus-lockdown.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/world/asia/india-coronavirus-lockdown.html" rel="standout"></atom:link>
+      <description>With four hours’ notice, India’s prime minister announced that no one could leave their homes for 21 days — the most severe step taken anywhere in the war against the coronavirus.</description>
+      <dc:creator>Jeffrey Gettleman and Kai Schultz</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 04:08:55 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Modi, Narendra</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Delhi (India)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/world/24virus-india/24virus-india-moth-v3.jpg" width="151"></media:content>
+      <media:credit>Anupam Nath/Associated Press</media:credit>
+      <media:description>A family watching Prime Minister Narendra Modi on Tuesday announcing a total lockdown across India to contain the coronavirus outbreak.</media:description>
+    </item>
+    <item>
+      <title>Britain Locks Down to Stem the Coronavirus. More or Less.</title>
+      <link>https://www.nytimes.com/2020/03/24/world/europe/britain-coronavirus-lockdown.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/world/europe/britain-coronavirus-lockdown.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/world/europe/britain-coronavirus-lockdown.html" rel="standout"></atom:link>
+      <description>A day of confusion and contradictory images as Britons struggled to adapt to the new rules, and sometimes just understand them.</description>
+      <dc:creator>Mark Landler and Stephen Castle</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 22:22:51 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Boris</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khan, Sadiq</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/world/24virus-uk4/24virus-uk4-moth.jpg" width="151"></media:content>
+      <media:credit>Andrew Testa for The New York Times</media:credit>
+      <media:description>A few shops remained open in an otherwise empty Borough Market near the London Bridge, on Tuesday.</media:description>
+    </item>
+    <item>
+      <title>Coronavirus in Europe: Thousands of Health Workers Out of Action</title>
+      <link>https://www.nytimes.com/2020/03/24/world/europe/coronavirus-europe-covid-19.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/world/europe/coronavirus-europe-covid-19.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/world/europe/coronavirus-europe-covid-19.html" rel="standout"></atom:link>
+      <description>The thinning ranks of doctors and nurses, particularly in Spain, are hampering the ability to fight the epidemic, straining hospitals and raising fears that health workers are spreading the coronavirus.</description>
+      <dc:creator>Raphael Minder and Elian Peltier</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 21:21:48 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Emergency Medical Treatment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Protective Clothing and Gear</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Masks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Epidemics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Doctors</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/25/world/25virus-spain/25virus-spain-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Samuel Aranda for The New York Times</media:credit>
+      <media:description>Healthcare workers outside of a hospital in Barcelona, Spain, on Tuesday.</media:description>
+    </item>
+    <item>
+      <title>Facebook Is ‘Just Trying to Keep the Lights On’ as Traffic Soars in Pandemic</title>
+      <link>https://www.nytimes.com/2020/03/24/technology/virus-facebook-usage-traffic.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/technology/virus-facebook-usage-traffic.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/technology/virus-facebook-usage-traffic.html" rel="standout"></atom:link>
+      <description>The social network is straining to deal with skyrocketing usage as its 45,000 employees work from home for the first time.</description>
+      <dc:creator>Mike Isaac and Sheera Frenkel</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 21:59:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zuckerberg, Mark E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Telecommuting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Instant Messaging</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Epidemics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Advertising and Marketing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Telephones and Telecommunications</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/business/00virus-facebook1/00virus-facebook1-moth.jpg" width="151"></media:content>
+      <media:credit>Jason Henry for The New York Times</media:credit>
+      <media:description>Facebook’s 45,000 employees have been asked to work at home during the pandemic, emptying the offices.</media:description>
+    </item>
+    <item>
+      <title>Coronavirus Spurs a Wave of Suspect Websites Looking to Cash In</title>
+      <link>https://www.nytimes.com/2020/03/24/business/coronavirus-ecommerce-sites.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/business/coronavirus-ecommerce-sites.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/business/coronavirus-ecommerce-sites.html" rel="standout"></atom:link>
+      <description>Hundreds of e-commerce sites are popping up daily to sell virus-fighting products. Many are being shut down for making exaggerated claims or selling phantom products.</description>
+      <dc:creator>Michael H. Keller and Taylor Lorenz</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 14:23:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Shopify Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Masks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tests (Medical)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Frauds and Swindling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Protective Clothing and Gear</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Advertising</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">E-Commerce</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Epidemics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Facebook Inc</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/multimedia/24virus-ecommerce-04/24virus-ecommerce-04-moth.png" width="151"></media:content>
+      <media:description>Shopify has registered nearly 500 new e-commerce sites over the past two months with names that include “corona” or “covid.”</media:description>
+    </item>
+    <item>
+      <title>Drivers Say Uber and Lyft Are Blocking Unemployment Pay</title>
+      <link>https://www.nytimes.com/2020/03/24/business/economy/coronavirus-uber-lyft-drivers-unemployment.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/business/economy/coronavirus-uber-lyft-drivers-unemployment.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/business/economy/coronavirus-uber-lyft-drivers-unemployment.html" rel="standout"></atom:link>
+      <description>States like New York and California have made gig workers eligible for jobless benefits and sick days. But the companies have resisted complying.</description>
+      <dc:creator>Noam Scheiber</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 00:54:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Uber Technologies Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Lyft Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment Insurance</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Car Services and Livery Cabs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Paid Time Off</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Employee Fringe Benefits</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freelancing, Self-Employment and Independent Contracting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/business/24virus-drivers2/24virus-drivers2-moth.jpg" width="151"></media:content>
+      <media:credit>Jessica Pons for The New York Times</media:credit>
+      <media:description>Jerome Gage, a Lyft driver in Los Angeles who has lost most of his business, faces difficulty collecting unemployment benefits.</media:description>
+    </item>
+    <item>
+      <title>The Complicated Calculus of Helping Neighbors During a Pandemic</title>
+      <link>https://www.nytimes.com/2020/03/24/nyregion/ny-coronavirus-help.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/nyregion/ny-coronavirus-help.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/nyregion/ny-coronavirus-help.html" rel="standout"></atom:link>
+      <description>In the coronavirus crisis, kind gestures like picking up groceries could carry great risk.</description>
+      <dc:creator>Annie Correal</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 02:37:24 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Volunteers and Community Service</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Delivery Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elderly</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Menchaca, Carlos</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ocasio-Cortez, Alexandria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clark Hamel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Emily Claypoole</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/23/nyregion/00nyvirus-neighbors1/00nyvirus-neighbors1-moth.jpg" width="151"></media:content>
+      <media:credit>Laylah Amatullah Barrayn for The New York Times</media:credit>
+      <media:description>Clark Hamel, 24, is staying inside his fourth-floor apartment in Brooklyn because he is immunocompromised. </media:description>
+    </item>
+    <item>
+      <title>Terrence McNally, Tony-Winning Playwright of Gay Life, Dies at 81</title>
+      <link>https://www.nytimes.com/2020/03/24/theater/terrence-mcnally-dead-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/theater/terrence-mcnally-dead-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/theater/terrence-mcnally-dead-coronavirus.html" rel="standout"></atom:link>
+      <description>Mr. McNally, who died of coronavirus complications, introduced audiences to characters and situations that most mainstream theater had previously shunted into comic asides.</description>
+      <dc:creator>Jesse Green and Neil Genzlinger</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 03:38:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McNally, Terrence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homosexuality and Bisexuality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Frankie and Johnny in the Clair de Lune (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Kiss of the Spider Woman (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Lips Together, Teeth Apart (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Master Class (Play)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/25/obituaries/24mcnally/24mcnally-moth.jpg" width="151"></media:content>
+      <media:credit>Fred R. Conrad/The New York Times</media:credit>
+      <media:description>The playwright Terrence McNally in 2014. His career, which began on Broadway in 1963, continued without much interruption through last year.</media:description>
+    </item>
+    <item>
+      <title>3 of the Busiest National Parks Close Amid Coronavirus Outbreak</title>
+      <link>https://www.nytimes.com/2020/03/24/us/coronavirus-national-parks-closed.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/us/coronavirus-national-parks-closed.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/us/coronavirus-national-parks-closed.html" rel="standout"></atom:link>
+      <description>Yellowstone, Grand Teton and the Great Smoky Mountains national parks cited concerns about social distancing.</description>
+      <dc:creator>Neil Vigdor</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 03:26:32 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parks and Other Recreation Areas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">National Parks, Monuments and Seashores</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Park Service</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bullock, Steve</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Smoky Mountains National Park</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yellowstone National Park</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Tennessee</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Carolina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wyoming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Montana</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Grand Teton National Park</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/us/24xp-virus-nationalparks1/merlin_145757964_de734b0e-bc48-474c-82f8-71178d8b92d9-moth.jpg" width="151"></media:content>
+      <media:credit>Josh Haner/The New York Times</media:credit>
+      <media:description>A tourist taking photographs of Castle Geyser at Yellowstone National Park in 2018.</media:description>
+    </item>
+    <item>
+      <title>Coronavirus, Olympics, Canned Tomatoes: Your Tuesday Evening Briefing</title>
+      <link>https://www.nytimes.com/2020/03/24/briefing/coronavirus-olympics-canned-tomatoes.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/briefing/coronavirus-olympics-canned-tomatoes.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/briefing/coronavirus-olympics-canned-tomatoes.html" rel="standout"></atom:link>
+      <description>Here’s what you need to know at the end of the day.</description>
+      <dc:creator>Remy Tumin and Hiroko Masuike</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 22:26:15 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/reader-center/032420evening-briefing-promo/24evening-briefing-trump1-moth.jpg" width="151"></media:content>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Why the American Approach Is Failing</title>
+      <link>https://www.nytimes.com/2020/03/24/podcasts/the-daily/coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/podcasts/the-daily/coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/podcasts/the-daily/coronavirus.html" rel="standout"></atom:link>
+      <description>“Shelter in place” orders and the closing of businesses are a reaction to the failure to act earlier to prevent the spread of the coronavirus.</description>
+      <pubDate>Tue, 24 Mar 2020 09:56:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McNeil, Donald G Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Centers for Disease Control and Prevention</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/world/24daily-empty/24daily-empty-moth.jpg" width="151"></media:content>
+      <media:credit> Todd Heisler/The New York Times</media:credit>
+      <media:description>Times Square in New York on Thursday.</media:description>
+    </item>
+    <item>
+      <title>From the Archives: Robert Caro on How He Does It</title>
+      <link>https://www.nytimes.com/2020/03/20/books/review/20podcast-robert-caro-working.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/20/books/review/20podcast-robert-caro-working.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/20/books/review/20podcast-robert-caro-working.html" rel="standout"></atom:link>
+      <description>The acclaimed biographer of Lyndon Johnson and Robert Moses talks about “Working: Researching, Interviewing, Writing.”</description>
+      <pubDate>Fri, 20 Mar 2020 16:44:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Caro, Robert A</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Podcasts</category>
+    </item>
+    <item>
+      <title>Sign Up: ‘Coronavirus Briefing’</title>
+      <link>https://www.nytimes.com/newsletters/coronavirus-briefing</link>
+      <guid isPermaLink="true">https://www.nytimes.com/newsletters/coronavirus-briefing</guid>
+      <atom:link href="https://www.nytimes.com/newsletters/coronavirus-briefing" rel="standout"></atom:link>
+      <description>An informed guide to the global outbreak.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 20:24:37 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/02/26/us/coronavirus-briefing-icon/coronavirus-briefing-icon-moth.png" width="151"></media:content>
+      <media:credit>The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Coronavirus Is Advancing. All Americans Need to Shelter in Place.</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump-lockdown.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump-lockdown.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump-lockdown.html" rel="standout"></atom:link>
+      <description>The worst of the pandemic is yet to come. Listen to the medical experts. It’s time for a national lockdown.</description>
+      <dc:creator>The Editorial Board</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 23:43:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pence, Mike</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/25/opinion/25shutdownprint/merlin_152410116_0f74ea18-a150-4af9-b30b-ddfbcf27df94-moth.jpg" width="151"></media:content>
+      <media:credit>Maddie McGarvey for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>7 Medical Leaders to Politicians: Save Lives, Not Wall Street</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/social-distancing-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/social-distancing-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/social-distancing-coronavirus.html" rel="standout"></atom:link>
+      <description>Don’t open businesses and schools. The economy won’t recover until this pandemic ends.</description>
+      <dc:creator>J. Larry Jameson</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 02:03:22 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shortages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/opinion/24jameson2/24jameson2-moth.jpg" width="151"></media:content>
+      <media:credit>Jeenah Moon for The New York Times</media:credit>
+      <media:description>Hudson Street in Greenwich Village, normally bustling. </media:description>
+    </item>
+    <item>
+      <title>I Followed the U.K.’s Advice. Did I Spread Coronavirus?</title>
+      <link>https://www.nytimes.com/2020/03/25/opinion/coronavirus-uk.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/25/opinion/coronavirus-uk.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/25/opinion/coronavirus-uk.html" rel="standout"></atom:link>
+      <description>The symptoms are not as straightforward as Boris Johnson makes them seem.</description>
+      <dc:creator>Abigail Tarttelin</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 05:00:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fever</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Epidemics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Norovirus</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Gastroenterology (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Health Organization</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/25/opinion/25tarttellin/25tarttellin-moth.jpg" width="151"></media:content>
+      <media:credit>Dan Kitwood/Getty Images</media:credit>
+      <media:description>London’s Westminster Bridge on Tuesday.</media:description>
+    </item>
+    <item>
+      <title>Trump to New York: Drop Dead</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/trump-nyc-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/trump-nyc-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/trump-nyc-coronavirus.html" rel="standout"></atom:link>
+      <description>Untold thousands will likely die, absent federal intervention. And it needs to happen this instant. Why won’t the president help?</description>
+      <dc:creator>Jennifer Senior</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 00:38:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ventilators (Medical)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/opinion/24senior1a/24senior1a-moth.jpg" width="151"></media:content>
+      <media:credit>Eduardo Munoz/Reuters</media:credit>
+    </item>
+    <item>
+      <title>To Prevent a Coronavirus Depression, Will Trump Trade Away Lives?</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump-economy.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump-economy.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump-economy.html" rel="standout"></atom:link>
+      <description>Will he, given his obsession with the economy?</description>
+      <dc:creator>Frank Bruni</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 23:21:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/opinion/24bruniWeb/24bruniWeb-moth.jpg" width="151"></media:content>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <media:description>President Trump on his way to the White House briefing room on Monday.</media:description>
+    </item>
+    <item>
+      <title>Finding the ‘Common Good’ in a Pandemic</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/covid-ethics-politics.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/covid-ethics-politics.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/covid-ethics-politics.html" rel="standout"></atom:link>
+      <description>The Harvard political philosopher Michael Sandel offers his take.</description>
+      <dc:creator>Thomas L. Friedman</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 23:54:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sandel, Michael J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/opinion/24friedmanWeb/24friedmanWeb-moth.jpg" width="151"></media:content>
+      <media:credit>Samuel Aranda for The New York Times</media:credit>
+      <media:description>Health care workers in Spain responding to people applauding for them from nearby homes.</media:description>
+    </item>
+    <item>
+      <title>I’m on the Front Lines. I Have No Plan for This.</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/coronavirus-hospital-visits.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/coronavirus-hospital-visits.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/coronavirus-hospital-visits.html" rel="standout"></atom:link>
+      <description>We’re not allowing visitors in the I.C.U. My patients will suffer in solitary confinement.</description>
+      <dc:creator>Daniela J. Lamas</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 21:59:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/25/opinion/24Lamas/24Lamas-moth.jpg" width="151"></media:content>
+      <media:credit>Ron Chapple/The Image Bank, via Getty Images Plus</media:credit>
+    </item>
+    <item>
+      <title>Trump Doesn’t Have the Attention Span to Fight Coronavirus</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/coronavirus-trump.html" rel="standout"></atom:link>
+      <description>He already seems to be losing interest. Look elsewhere for hope.</description>
+      <dc:creator>Gail Collins and Bret Stephens</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 09:00:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Recession and Depression</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cuomo, Andrew M</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/opinion/24conversation1/merlin_170883876_7cd7ad2c-c2f9-4f5c-8c92-28e1976c15fd-moth.jpg" width="151"></media:content>
+      <media:credit>Mark Lennihan/Associated Press</media:credit>
+    </item>
+    <item>
+      <title>Will Our Most Important Industry Survive the Coronavirus?</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/tech-companies-covid.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/tech-companies-covid.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/tech-companies-covid.html" rel="standout"></atom:link>
+      <description>Better than you might think. Governments need Big Tech now more than ever.</description>
+      <dc:creator>Kara Swisher</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 00:26:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Advertising</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cloud Computing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">E-Commerce</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stimulus (Economic)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Amazon.com Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Google Inc</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/opinion/24Swisher2/24Swisher2-moth.jpg" width="151"></media:content>
+      <media:credit>Carlo Allegri/Reuters</media:credit>
+      <media:description>As more consumers turn to online delivery and entertainment services, companies like Amazon will benefit.</media:description>
+    </item>
+    <item>
+      <title>Coronavirus Advice from a Grocery Store Worker</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/grocery-store-covid.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/grocery-store-covid.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/grocery-store-covid.html" rel="standout"></atom:link>
+      <description>Be kind. Don’t let the weight of your grief and anger fall on our shoulders.</description>
+      <dc:creator>Dylan Morrison</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 19:03:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supermarkets and Grocery Stores</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Service Industries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Food Contamination and Poisoning</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/opinion/24Morrison2/24Morrison2-moth.jpg" width="151"></media:content>
+      <media:credit>Westend61/Getty Images</media:credit>
+    </item>
+    <item>
+      <title>After Coronavirus, Will We Have an America Without Restaurants?</title>
+      <link>https://www.nytimes.com/2020/03/24/opinion/coronavirus-restaurants-danny-meyer.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/opinion/coronavirus-restaurants-danny-meyer.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/opinion/coronavirus-restaurants-danny-meyer.html" rel="standout"></atom:link>
+      <description>If businesses like ours don’t get help from Washington, more than 10 million Americans could lose their jobs.</description>
+      <dc:creator>Andrew Carmellini, Tom Colicchio, Danny Meyer, Missy Robbins, Marcus Samuelsson and Adam Saper</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 17:16:51 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restaurants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Layoffs and Job Reductions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/opinion/24meyer2/24meyer2-moth.jpg" width="151"></media:content>
+      <media:credit>Damon Winter/The New York Times</media:credit>
+      <media:description>The Daily Provisions cafe on the Upper West Side, a Danny Meyer restaurant. </media:description>
+    </item>
+    <item>
+      <title>What to Watch, Read and Listen To During Your Coronavirus Self-Quarantine</title>
+      <link>https://www.nytimes.com/article/coronavirus-quarantine-what-to-watch.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/article/coronavirus-quarantine-what-to-watch.html</guid>
+      <atom:link href="https://www.nytimes.com/article/coronavirus-quarantine-what-to-watch.html" rel="standout"></atom:link>
+      <description>You’re staying home and you need a distraction. We’re updating this recommendation list every weekday.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 19:40:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Podcasts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Games</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/16/arts/16VIRUS-WATCHING-GRID-copyforloop/16VIRUS-WATCHING-GRID-moth.jpg" width="151"></media:content>
+      <media:description>From left, “The Good Place,” “Bluey” and “Knives Out” are among our recommendations for what to watch.</media:description>
+    </item>
+    <item>
+      <title>Livestreaming the Seattle Symphony Became a Source of Connection in Dark Times</title>
+      <link>https://www.nytimes.com/2020/03/24/magazine/coronavirus-music-live-stream-concert.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/magazine/coronavirus-music-live-stream-concert.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/magazine/coronavirus-music-live-stream-concert.html" rel="standout"></atom:link>
+      <description>The live performance wasn’t really live, but it felt like being there all the same.</description>
+      <dc:creator>Brooke Jarvis</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 18:49:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Seattle Symphony</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ma, Yo-Yo</category>
+    </item>
+    <item>
+      <title>Great Leadership in a Time of Crisis</title>
+      <link>https://www.nytimes.com/2020/03/24/books/review/great-leadership-in-a-time-of-crisis.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/books/review/great-leadership-in-a-time-of-crisis.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/books/review/great-leadership-in-a-time-of-crisis.html" rel="standout"></atom:link>
+      <description>Books from the past show us how John Kennedy, Franklin Roosevelt and Winston Churchill confronted the crises they faced.</description>
+      <dc:creator>Jon Meacham</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 14:52:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Great Depression (1930&#39;s)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World War II (1939-45)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cuban Missile Crisis (1962)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Churchill, Winston Leonard Spencer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, John Fitzgerald</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Roosevelt, Franklin Delano</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Robert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Thirteen Days (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schlesinger, Arthur Jr.</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Coming of the New Deal (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lukacs, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Five Days in London (Book)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/books/review/24Meacham/24Meacham-moth.jpg" width="151"></media:content>
+      <media:credit>Ralph Crane/The LIFE Picture Collection, via Getty Images</media:credit>
+      <media:description>People watch as John Kennedy announces a blockade of Cuba, Oct. 22, 1962.</media:description>
+    </item>
+    <item>
+      <title>Bernie Sanders Plans to Participate in Next Debate, Campaign Says</title>
+      <link>https://www.nytimes.com/2020/03/24/us/politics/biden-sanders-next-democratic-debate.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/us/politics/biden-sanders-next-democratic-debate.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/us/politics/biden-sanders-next-democratic-debate.html" rel="standout"></atom:link>
+      <description>It was the strongest sign yet that he plans to keep competing against Joe Biden in the Democratic presidential primary.</description>
+      <dc:creator>Sydney Ember and Reid J. Epstein</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 01:11:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanders, Bernard</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Primaries and Caucuses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/us/politics/24sanders/24sanders-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Schaff/The New York Times</media:credit>
+      <media:description>Senator Bernie Sanders at the debate in Washington this month. The Democratic National Committee has said that there would be a debate in April, but one has not been scheduled.</media:description>
+    </item>
+    <item>
+      <title>Texas Tries to Balance Local Control With the Threat of a Global Pandemic</title>
+      <link>https://www.nytimes.com/2020/03/24/us/coronavirus-texas-patrick-abbott.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/us/coronavirus-texas-patrick-abbott.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/us/coronavirus-texas-patrick-abbott.html" rel="standout"></atom:link>
+      <description>Texas is the largest state that has not issued a statewide stay-at-home order. With many regions untouched by the coronavirus, Lt. Gov. Dan Patrick wants the economy moving again.</description>
+      <dc:creator>Manny Fernandez and David Montgomery</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 02:16:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Patrick, Dan (1950- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Texas</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/us/24virus-texas/24virus-texas-moth.jpg" width="151"></media:content>
+      <media:credit>Evan Vucci/Associated Press</media:credit>
+      <media:description>Lt. Gov. Dan Patrick of Texas, center, with President Trump and Attorney General Ken Paxton of Texas, in November.</media:description>
+    </item>
+    <item>
+      <title>Spring Breaker Who Said, &#39;If I Get Corona, I Get Corona,&#39; Apologizes</title>
+      <link>https://www.nytimes.com/2020/03/24/us/coronavirus-brady-sluder-spring-break.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/us/coronavirus-brady-sluder-spring-break.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/us/coronavirus-brady-sluder-spring-break.html" rel="standout"></atom:link>
+      <description>A beachgoer whose defiance of social distancing guidelines drew widespread attention said that he had not been “aware of the severity of my actions and comments.”</description>
+      <dc:creator>Aimee Ortiz</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 00:05:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Florida</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Miami (Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Brady Sluder</category>
+      <category domain="">spring break</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/multimedia/24xp-virus-springbreaker/24xp-virus-springbreaker-moth.jpg" width="151"></media:content>
+      <media:credit>Saul Martinez for The New York Times</media:credit>
+      <media:description>College students at a bar in Fort Lauderdale, Fla., on March 11.</media:description>
+    </item>
+    <item>
+      <title>Jeremy Marre, Documentarian of World Music, Is Dead at 76</title>
+      <link>https://www.nytimes.com/2020/03/23/arts/music/jeremy-marre-dead.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/23/arts/music/jeremy-marre-dead.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/23/arts/music/jeremy-marre-dead.html" rel="standout"></atom:link>
+      <description>With a minimal camera and sound crew, Mr. Marre traveled the world to film music and musicians on home turf that was often gritty and unglamorous.</description>
+      <dc:creator>Jon Pareles</dc:creator>
+      <pubDate>Mon, 23 Mar 2020 15:44:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Documentary Films and Programs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Marre, Jeremy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Beats of the Heart (TV Program)</category>
+    </item>
+    <item>
+      <title>Greta Thunberg Says It’s ‘Extremely Likely’ That She Had Coronavirus</title>
+      <link>https://www.nytimes.com/2020/03/24/climate/greta-thunberg-coronavirus-covid.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/climate/greta-thunberg-coronavirus-covid.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/climate/greta-thunberg-coronavirus-covid.html" rel="standout"></atom:link>
+      <description></description>
+      <dc:creator>Somini Sengupta</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 00:06:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Environment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Thunberg, Greta</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/climate/24CLI-GRETAVIRUS1/24CLI-GRETAVIRUS1-moth.jpg" width="151"></media:content>
+      <media:credit>Virginia Mayo/Associated Press</media:credit>
+      <media:description>Greta Thunberg at a meeting of the European Council in Brussels on March 5.</media:description>
+    </item>
+    <item>
+      <title>Women Should be Eligible for US Military Draft</title>
+      <link>https://www.nytimes.com/2020/03/24/us/women-military-draft-selective-service.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/us/women-military-draft-selective-service.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/us/women-military-draft-selective-service.html" rel="standout"></atom:link>
+      <description>A commission appointed by Congress will recommend that expanding selective service registration to women is a “necessary and fair step.”</description>
+      <dc:creator>Sarah Mervosh and John Ismay</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 20:56:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Draft and Recruitment (Military)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/us/24women-draft/24women-draft-moth.jpg" width="151"></media:content>
+      <media:credit>Melissa Golden for The New York Times</media:credit>
+      <media:description>Army cadets at a training exercise in Columbus, Ga.</media:description>
+    </item>
+    <item>
+      <title>2020 Primary and Election: Has the Coronavirus Postponed It All? </title>
+      <link>https://www.nytimes.com/2020/03/24/us/politics/coronavirus-2020-election-primary.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/us/politics/coronavirus-2020-election-primary.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/us/politics/coronavirus-2020-election-primary.html" rel="standout"></atom:link>
+      <description>Primary elections are being pushed back. The Olympics are officially in 2021. The election-year calendar seemed set in stone and now it is up in the air.</description>
+      <dc:creator>Matt Flegenheimer</dc:creator>
+      <pubDate>Wed, 25 Mar 2020 01:10:54 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Primaries and Caucuses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanders, Bernard</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/us/politics/24campaign-memo/24campaign-memo-moth.jpg" width="151"></media:content>
+      <media:credit>Maddie McGarvey for The New York Times</media:credit>
+      <media:description>Aaron Sellers cleaned a voting machine in Columbus, Ohio, in preparation for a primary that ended up being postponed because of the coronavirus.</media:description>
+    </item>
+    <item>
+      <title>Golf Rounds Surged as Coronavirus Advanced. Now the Game Is Retreating.</title>
+      <link>https://www.nytimes.com/2020/03/24/sports/golf/golf-courses-open-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/sports/golf/golf-courses-open-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/sports/golf/golf-courses-open-coronavirus.html" rel="standout"></atom:link>
+      <description>Drawn by open-air acreage, free time and new social distancing guidelines, recreational golfers in the U.S. were playing in droves this month. Then courses started shuttering.</description>
+      <dc:creator>Bill Pennington</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 13:07:30 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Golf</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Golf Assn</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/sports/24virus-golf-7/24virus-golf-7-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Michael Hanson for The New York Times</media:credit>
+      <media:description>Playing a round at Indian Creek Golf Course on Saturday.</media:description>
+    </item>
+    <item>
+      <title>Turning Back the Clock on Aging Cells</title>
+      <link>https://www.nytimes.com/2020/03/24/science/aging-dna-epigenetics-cells.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/science/aging-dna-epigenetics-cells.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/science/aging-dna-epigenetics-cells.html" rel="standout"></atom:link>
+      <description>Researchers report that they can rejuvenate human cells by reprogramming them to a youthful state.</description>
+      <dc:creator>Nicholas Wade</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 14:08:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Osteoarthritis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Proteins</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yamanaka, Shinya</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Izpisua Belmonte, Juan Carlos</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sebastiano, Vittorio</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/science/24SCI-STEMCELLS1/24SCI-STEMCELLS1-moth.jpg" width="151"></media:content>
+      <media:credit>David Scharf/Science Source</media:credit>
+      <media:description>A scanning electron micrograph of a human embryonic stem cell.</media:description>
+    </item>
+    <item>
+      <title>Why Mundane Moments Truly Matter</title>
+      <link>https://www.nytimes.com/2020/03/23/smarter-living/why-mundane-moments-matter.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/23/smarter-living/why-mundane-moments-matter.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/23/smarter-living/why-mundane-moments-matter.html" rel="standout"></atom:link>
+      <description>“How we spend our days is how we spend our lives.”</description>
+      <dc:creator>Simran Sethi</dc:creator>
+      <pubDate>Mon, 23 Mar 2020 23:05:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychology and Psychologists</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/20/smarter-living/00sl-mundan-2/00sl-mundan-2-moth.jpg" width="151"></media:content>
+      <media:credit>Lissa Jensen</media:credit>
+      <media:description>An entry from Lissa Jensen’s journal, written sitting at a table late one evening.</media:description>
+    </item>
+    <item>
+      <title>How to Stay Sane When the World Seems Crazy</title>
+      <link>https://www.nytimes.com/2020/03/23/smarter-living/coronavirus-coping-tips.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/23/smarter-living/coronavirus-coping-tips.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/23/smarter-living/coronavirus-coping-tips.html" rel="standout"></atom:link>
+      <description>Stop and take a breath. The world will keep spinning.</description>
+      <dc:creator>Allie Volpe</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 02:00:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anxiety and Stress</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/21/smarter-living/21sl-stay-sane/21sl-stay-sane-moth-v3.jpg" width="151"></media:content>
+      <media:credit>Simone Noronha</media:credit>
+    </item>
+    <item>
+      <title>9 Delightful Articles to Help You Get Through This Week</title>
+      <link>https://www.nytimes.com/2020/03/23/smarter-living/9-delightful-articles-to-help-you-get-through-this-week.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/23/smarter-living/9-delightful-articles-to-help-you-get-through-this-week.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/23/smarter-living/9-delightful-articles-to-help-you-get-through-this-week.html" rel="standout"></atom:link>
+      <description>We’re all just trying to do our best now. These articles might help a little.</description>
+      <dc:creator>Tim Herrera</dc:creator>
+      <pubDate>Mon, 23 Mar 2020 14:41:29 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/03/08/smarter-living/08sl_newsletter/04sl_newsletter-moth.jpg" width="151"></media:content>
+      <media:credit>Rose Wong</media:credit>
+    </item>
+    <item>
+      <title>Burnout Isn’t Just in Your Head. It’s in Your Circumstances.</title>
+      <link>https://www.nytimes.com/2020/03/19/smarter-living/coronavirus-emotional-support.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/19/smarter-living/coronavirus-emotional-support.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/19/smarter-living/coronavirus-emotional-support.html" rel="standout"></atom:link>
+      <description>We can fight emotional exhaustion by decreasing demands, increasing support and enhancing control.</description>
+      <dc:creator>Adam Grant</dc:creator>
+      <pubDate>Fri, 20 Mar 2020 13:49:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychology and Psychologists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Emotions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/23/smarter-living/20sl-grant-burnout/20sl-grant-burnout-moth.jpg" width="151"></media:content>
+      <media:credit>Dominic Kesterton</media:credit>
+    </item>
+    <item>
+      <title>A Boston E.R. Doctor&#39;s Poem About the Coronavirus</title>
+      <link>https://www.nytimes.com/2020/03/24/us/coronavirus-doctor-poetry-boston.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/us/coronavirus-doctor-poetry-boston.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/us/coronavirus-doctor-poetry-boston.html" rel="standout"></atom:link>
+      <description>A Boston emergency room doctor’s battle of words with the coronavirus.</description>
+      <dc:creator>Karen Weise</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 20:24:26 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Emergency Medical Treatment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Poetry and Poets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Boston Medical Center</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mitchell, Elizabeth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Boston (Mass)</category>
+    </item>
+    <item>
+      <title>Review: ‘One Day at a Time’ Still Standing and Being Counted</title>
+      <link>https://www.nytimes.com/2020/03/23/arts/television/one-day-at-a-time-review.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/23/arts/television/one-day-at-a-time-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/23/arts/television/one-day-at-a-time-review.html" rel="standout"></atom:link>
+      <description>The former Netflix sitcom about a Cuban-American family returns on Pop TV, slightly shorter but big on laughs and purpose.</description>
+      <dc:creator>James Poniewozik</dc:creator>
+      <pubDate>Mon, 23 Mar 2020 16:31:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Pop (TV Network)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">One Day at a Time (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Machado, Justina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Moreno, Rita</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Romano, Ray</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/arts/23oneday-review/23oneday-review-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Nicole Wilder/Pop Tv</media:credit>
+      <media:description>The Alvarez family is back after a brush with cancellation, but the move from Netflix to cable TV hasn’t changed what works about “One Day at a Time.” Isabella Gomez, left, plays Elena, the teenage daughter of Penelope (Justina Machado).</media:description>
+    </item>
+    <item>
+      <title>A D.I.Y. Dance for Your Home, From Yvonne Rainer</title>
+      <link>https://www.nytimes.com/2020/03/24/arts/dance/yvonne-rainer-do-it-yourself-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/arts/dance/yvonne-rainer-do-it-yourself-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/arts/dance/yvonne-rainer-do-it-yourself-coronavirus.html" rel="standout"></atom:link>
+      <description>The venerated choreographer invites you to try “Passing and Jostling While Being Confined to a Small Apartment.”</description>
+      <dc:creator>Brian Seibert</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 20:03:34 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dancing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rainer, Yvonne</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Passing and Jostling While Being Confined to a Small Apartment (Dance (Non-Ballet))</category>
+    </item>
+    <item>
+      <title>Tiny Love Stories: ‘You Find Yourself Lying Once Again in His Bed’</title>
+      <link>https://www.nytimes.com/2020/03/24/style/tiny-modern-love-stories-coronavirus-in-his-bed.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/style/tiny-modern-love-stories-coronavirus-in-his-bed.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/style/tiny-modern-love-stories-coronavirus-in-his-bed.html" rel="standout"></atom:link>
+      <description>Modern Love in miniature, featuring reader-submitted stories of no more than 100 words.</description>
+      <pubDate>Tue, 24 Mar 2020 22:54:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Love (Emotion)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Modern Love (Times Column)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dating and Relationships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Text Messaging</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Retirement Communities and Assisted Living</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/04/04/fashion/04TINYLOVE-ILLO1/04TINYLOVE-ILLO1-moth.jpg" width="151"></media:content>
+      <media:credit>Brian Rea</media:credit>
+    </item>
+    <item>
+      <title>Carolina Releases Cam Newton, Completes Housecleaning</title>
+      <link>https://www.nytimes.com/2020/03/24/sports/football/cam-newton-panthers-injury-release.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/sports/football/cam-newton-panthers-injury-release.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/sports/football/cam-newton-panthers-injury-release.html" rel="standout"></atom:link>
+      <description>The quarterback, a former league M.V.P., was the most visible remnant of the franchise’s old identity. Facing free agency with an uncertain foot injury, 30-year-old Newton may be a tough sell.</description>
+      <dc:creator>Ben Shpigel</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 23:38:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Free Agents (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Carolina Panthers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Newton, Cameron J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/sports/24nfl-cam1/24nfl-cam1-moth.jpg" width="151"></media:content>
+      <media:credit>Mike Mccarn/Associated Press</media:credit>
+      <media:description>Cam Newton, the Panthers’ career leader in passing yards (29,041), passing and rushing touchdowns (182 and 58, respectively) and wins by a quarterback (68), will seek a new team after nine seasons in Carolina.</media:description>
+    </item>
+    <item>
+      <title>What Does Our Body Temperature Say About Our Health?</title>
+      <link>https://www.nytimes.com/2020/03/24/magazine/fever-body-temperature-coronavirus.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/24/magazine/fever-body-temperature-coronavirus.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/24/magazine/fever-body-temperature-coronavirus.html" rel="standout"></atom:link>
+      <description>Humans seem to have cooled over the past 150 years. What does that mean for us now?</description>
+      <dc:creator>Kim Tingley</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 15:14:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicine and Health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Temperature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Longevity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fever</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Centers for Disease Control and Prevention</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Mount Sinai Medical Center</category>
+    </item>
+    <item>
+      <title>Thalidomide Use Did Happen Here, These Americans Say</title>
+      <link>https://www.nytimes.com/2020/03/23/health/thalidomide-drug-pharmaceuticals-united-states.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/23/health/thalidomide-drug-pharmaceuticals-united-states.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/23/health/thalidomide-drug-pharmaceuticals-united-states.html" rel="standout"></atom:link>
+      <description>They believe they were harmed in the thalidomide crisis of the 1950s and 1960s.</description>
+      <dc:creator>Katie Thomas</dc:creator>
+      <pubDate>Mon, 23 Mar 2020 15:32:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Thalidomide (Drug)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Clinical Trials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Grunenthal Group</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Sanofi SA</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Richardson-Merrell</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/24/science/16THALIDOMIDE-PROFILES1/00THALIDOMIDEPROFILES1-moth.jpg" width="151"></media:content>
+      <media:credit>Audra Melton for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Young Adults Come to Grips With Coronavirus Health Risks</title>
+      <link>https://www.nytimes.com/2020/03/20/health/coronavirus-millennials-young-adults.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/20/health/coronavirus-millennials-young-adults.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/20/health/coronavirus-millennials-young-adults.html" rel="standout"></atom:link>
+      <description>It can be a serious disease for younger people, and many millennials have chronic physical and mental health conditions.</description>
+      <dc:creator>Roni Caryn Rabin</dc:creator>
+      <pubDate>Fri, 20 Mar 2020 14:15:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Millennial Generation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Generation X</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicine and Health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Youth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Quarantines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/19/science/19VIRUS-MILLENNIALS-promo/19VIRUS-MILLENNIALS-promo-moth.jpg" width="151"></media:content>
+      <media:credit>Brandon Thibodeaux for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Vampire Bats Know Sharing Blood With Friends Is Good Manners</title>
+      <link>https://www.nytimes.com/2020/03/19/science/vampire-bats-blood.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/19/science/vampire-bats-blood.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/19/science/vampire-bats-blood.html" rel="standout"></atom:link>
+      <description>After a good blood meal, one bat will share with another, if the other bat is family, or has proved to be a reliable friend.</description>
+      <dc:creator>James Gorman</dc:creator>
+      <pubDate>Thu, 19 Mar 2020 18:31:17 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bats</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vampires</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Friendship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Animal Behavior</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Blood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Current Biology (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Carter, Gerald</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/19/science/19TB-VAMPIREBATS2/19TB-VAMPIREBATS2-moth.jpg" width="151"></media:content>
+      <media:credit>Ben Lascelles/Nature Picture Library, via Alamy</media:credit>
+      <media:description>A tight-knit vampire bat community in a hollow tree in the Chaco region of Argentina. </media:description>
+    </item>
+    <item>
+      <title>Trump Has Given Unusual Leeway to Fauci, but Aides Say He’s Losing His Patience</title>
+      <link>https://www.nytimes.com/2020/03/23/us/politics/coronavirus-trump-fauci.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2020/03/23/us/politics/coronavirus-trump-fauci.html</guid>
+      <atom:link href="https://www.nytimes.com/2020/03/23/us/politics/coronavirus-trump-fauci.html" rel="standout"></atom:link>
+      <description>The president has become increasingly concerned as Dr. Anthony S. Fauci has grown bolder in correcting his falsehoods about the spread of the coronavirus.</description>
+      <dc:creator>Maggie Haberman</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 04:09:48 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fauci, Anthony S</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Institute of Allergy and Infectious Diseases</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/23/us/politics/23dc-virus-fauci1/23dc-virus-fauci1-moth.jpg" width="151"></media:content>
+      <media:credit>Al Drago for The New York Times</media:credit>
+      <media:description>President Trump knows that Dr. Anthony S. Fauci, the director of the National Institute of Allergy and Infectious Diseases, is seen as credible with a large portion of the public and with journalists, officials said.</media:description>
+    </item>
+    <item>
+      <title>Try Tiles</title>
+      <link>https://www.nytimes.com/puzzles/tiles</link>
+      <guid isPermaLink="true">https://www.nytimes.com/puzzles/tiles</guid>
+      <atom:link href="https://www.nytimes.com/puzzles/tiles" rel="standout"></atom:link>
+      <description>Our soothing matching game may help you de-stress.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 00:44:17 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/23/crosswords/tiles-logo-nytgames-hi-res/tiles-logo-nytgames-hi-res-moth.jpg" width="151"></media:content>
+      <media:credit>The New York Times</media:credit>
+    </item>
+    <item>
+      <title>The Crossword, Vertex and More</title>
+      <link>https://www.nytimes.com/crosswords</link>
+      <guid isPermaLink="true">https://www.nytimes.com/crosswords</guid>
+      <atom:link href="https://www.nytimes.com/crosswords" rel="standout"></atom:link>
+      <description>Solve the daily puzzle edited by Will Shortz, or try out other games like the Mini and Letter Boxed.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 00:44:17 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/23/crosswords/crossword-logo-nytgames-hires/crossword-logo-nytgames-hires-moth.jpg" width="151"></media:content>
+      <media:credit>The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Try Spelling Bee</title>
+      <link>https://www.nytimes.com/puzzles/spelling-bee</link>
+      <guid isPermaLink="true">https://www.nytimes.com/puzzles/spelling-bee</guid>
+      <atom:link href="https://www.nytimes.com/puzzles/spelling-bee" rel="standout"></atom:link>
+      <description>Puzzle throughout the day to see how many words you can find.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Tue, 24 Mar 2020 00:44:17 +0000</pubDate>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2020/03/23/crosswords/spelling-bee-logo-nytgames-hi-res/spelling-bee-logo-nytgames-hi-res-moth.jpg" width="151"></media:content>
+      <media:credit>The New York Times</media:credit>
+    </item>
+  </channel>
+</rss>

@@ -11,7 +11,7 @@ const connect = require("gulp-connect");
 const babel = require('gulp-babel');
 
 
-function html(next) {
+function html(done) {
     gulp.src("./src/html/templates/**/*.ejs")
         .pipe(ejs().on("error", err => { console.error(err); }))
         .pipe(rename(function(path) {
@@ -25,18 +25,18 @@ function html(next) {
         .pipe(gulp.dest("./dist/"))
         .pipe(connect.reload());
 
-    next();
+    done();
 }
 
-function images(next) {
-    gulp.src("./src/assets/images/**/*")
-        .pipe(gulp.dest("./dist/assets/images/"))
+function images(done) {
+    gulp.src("./src/images/**/*")
+        .pipe(gulp.dest("./dist/images/"))
         .pipe(connect.reload());
 
-    next();
+    done();
 }
 
-function css(next) {
+function css(done) {
     gulp.src("./src/css/**/*.css")
         .pipe(postcss([
             tailwindcss,
@@ -46,10 +46,10 @@ function css(next) {
         .pipe(gulp.dest("./dist/assets/css"))
         .pipe(connect.reload());
 
-    next();
+    done();
 }
 
-function js(next) {
+function js(done) {
     gulp.src("./src/js/**/*.js")
         .pipe(babel({
             presets: ['@babel/env']
@@ -57,7 +57,7 @@ function js(next) {
         .pipe(gulp.dest("./dist/assets/js"))
         .pipe(connect.reload());
 
-    next();
+    done();
 }
 
 
@@ -79,7 +79,7 @@ function watchJs() {
 }
 
 
-gulp.task("dev", function(next) {
+gulp.task("dev", function(done) {
     watchHtml();
     watchImages();
     watchCss();
@@ -90,17 +90,16 @@ gulp.task("dev", function(next) {
         root: "dist"
     });
 
-    next();
+    done();
 });
 
-gulp.task("build", function(next) {
-    html(next);
-    images(next);
-    css(next);
-    js(next);
+gulp.task("build", function(done) {
+    html(done);
+    images(done);
+    css(done);
+    js(done);
     
-    
-    next();
+    done();
 });
 
 

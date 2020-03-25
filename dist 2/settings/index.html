@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsbox</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/80821de148.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main class="main__settings">
+	<nav>
+    <a onclick="goBack()"><i class="fas fa-chevron-left"></i></a>
+    <h1>Newsbox</h1>
+    <a><i class="fas fa-cog"></i></a>
+</nav>
+	
+	<h1 class="settings__headText">Manage</h1>
+	<h5 class="settings__headCategories">Categories</h5>
+	<div>
+		<div class="settings-cardList">
+			<!-----------------------INSÆT TEMPLATE------------------------>
+		</div>
+	</div>
+	<button>
+		<p>Toggle dark mode</p>
+	</button>
+</main>
+
+<!---------------------------LAVER TEMPLATE-------------------------->
+<template id="settings-template">
+	<h5 class="settings__categoryName"></h5>
+	<input class="settings__categorySwitch">
+</template>
+
+<footer>
+	
+</footer>
+
+<script src="/assets/js/historyBack.js"></script>
+</body>
+</html>

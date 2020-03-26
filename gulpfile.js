@@ -9,6 +9,7 @@ const autoprefixer = require("autoprefixer");
 const rename = require("gulp-rename");//rename omdøber filen til noget andet.
 const connect = require("gulp-connect");
 const babel = require('gulp-babel');
+const imagemin = require('gulp-imagemin');
 
 
 function html(done) {
@@ -28,12 +29,12 @@ function html(done) {
     done();
 }
 
-function images(done) {
-    gulp.src("./src/images/**/*")
-        .pipe(gulp.dest("./dist/images/"))
-        .pipe(connect.reload());
-
-    done();
+function images(done){
+	gulp.src("./src/images/*")
+		.pipe(imagemin())
+		.pipe(gulp.dest("dist/assets/images"))
+		.pipe(connect.reload());
+	done();
 }
 
 function css(done) {
@@ -67,7 +68,7 @@ function watchHtml() {
 }
 
 function watchImages() {
-    gulp.watch("./src/assets/images/**/*", { ignoreInitial: false }, images);
+    gulp.watch("./src/images/**/*", { ignoreInitial: false }, images);
 }
 
 function watchCss() {

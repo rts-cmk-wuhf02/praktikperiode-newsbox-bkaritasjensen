@@ -5,6 +5,35 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
-	margin: 0 auto;
+  margin: 0 auto;
+  color: #1B1C20;
 }
+/************************* ICON I SØGEFELTET ****************************/
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  .shreach::before {
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+	content: "\f002";
+  }
+/************************* DROPDOWN ****************************/
+.dropdown {
+cursor: pointer;
+outline: none;
+}
+.dropdown-content {
+display: none;
+}
+.dropdown-content a {
+display: block;
+}
+.show {
+display: block;
+}
+
 

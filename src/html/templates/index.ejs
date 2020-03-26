@@ -1,12 +1,22 @@
 <%- include('../partials/head') %>
 <main class="main__archive">
-	<%- include('../partials/top-nav') %>
+	<%- include('../partials/index_nav') %>
 	<form>
-		<input type="text" placeholder="Search news" name="search">
-		<button type="submit"><i class="fa fa-search"></i></button>
-	  </form>
-	<div id="archiveCategories-cardList">
-		<!---------------------------INDSÆT CATEGORIES TEMPLATE------------------->
+		<input class="w-350 h-45 mx-15 icon shreach" type="text" placeholder="Search news" name="search">
+		<button type="submit"></i></button>
+	</form>
+	<div class="dropdown">
+		<button class="dropbtn flex mx-15 items-center w-5/6" onclick="myFunction()">
+			<div class="w-35 h-35 flex bg-white shadow-b rounded-full items-center ">
+				<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
+			</div>
+			<p class="mx-25">Health</p>
+			<i class="fas float-right ml-150 fa-chevron-down"></i>
+		</button>
+		<a class="dropdown-content index_cardList" id="myDropdown">
+			hej
+			<!-----------------------INSÆT CARDLIST HER -------------------------->
+		</a>
 	</div>
 </main>
 <!-------------------------------------LAVER CATEGORIES TEMPLATES-------------------->
@@ -27,5 +37,6 @@
 			</a>
 		</article>
 	</template>
+<script src="/assets/js/dropdown.js"></script>
 <%- include('../partials/footer') %>
 <%- include('../partials/after-footer') %>

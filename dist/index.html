@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
@@ -6,43 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Newsbox</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/80821de148.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<main class="main__archive">
-	<div class="flex justify-between">
+<main class="main__newsbox">
+	<nav>
     <a onclick="goBack()"><i class="fas fa-chevron-left"></i></a>
     <h1>Newsbox</h1>
     <a><i class="fas fa-cog"></i></a>
-</div>
+</nav>
 	<form>
 		<input type="text" placeholder="Search news" name="search">
 		<button type="submit"><i class="fa fa-search"></i></button>
 	  </form>
-	<div id="archiveCategories-cardList">
+	<div id="newsboxCategories-cardList">
 		<!---------------------------INDSÆT CATEGORIES TEMPLATE------------------->
 	</div>
 </main>
+
 <!-------------------------------------LAVER CATEGORIES TEMPLATES-------------------->
-<template id="archiveCategories-template">
-	<h3 class="archiveCategories__categori"></h3>
+<template id="newsboxCategories-template">
+	<h3 class="newsboxCategories__categori"></h3>
 	<i class="fas fa-chevron-down"></i>
-	<div class="archiveArticle-cardList">
+	<div class="newsboxArticle-cardList">
 		<!---------------------------INDSÆT ARTICLES TEMPLATE------------------->
 	</div>
 </template>
+
 <!-------------------------------------LAVER ARTICLES TEMPLATES-------------------->
-	<template id="archiveArticle-template">
-		<article class="archive__outherBox">
-			<a class="archive__article" href="">
-				<img class="archive__image" src="" alt="image featured">
-				<h4 class="archive__headetText"></h4>
-				<p class="archive__text"></p>
+	<template id="newsboxArticle-template">
+		<article class="newsbox__outherBox">
+			<a class="newsbox__article" href="">
+				<img class="newsbox__image" src="" alt="image featured">
+				<h4 class="newsbox__headetText"></h4>
+				<p class="newsbox__text"></p>
 			</a>
 		</article>
 	</template>
+
+
 <footer>
 	
 </footer>

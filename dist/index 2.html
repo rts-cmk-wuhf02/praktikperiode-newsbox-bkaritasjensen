@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
@@ -7,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Newsbox</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/80821de148.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <main class="main__archive">
-	<nav>
+	<div class="flex justify-between">
     <a onclick="goBack()"><i class="fas fa-chevron-left"></i></a>
     <h1>Newsbox</h1>
     <a><i class="fas fa-cog"></i></a>
-</nav>
+</div>
 	<form>
 		<input type="text" placeholder="Search news" name="search">
 		<button type="submit"><i class="fa fa-search"></i></button>
@@ -24,7 +25,6 @@
 		<!---------------------------INDSÆT CATEGORIES TEMPLATE------------------->
 	</div>
 </main>
-
 <!-------------------------------------LAVER CATEGORIES TEMPLATES-------------------->
 <template id="archiveCategories-template">
 	<h3 class="archiveCategories__categori"></h3>
@@ -33,7 +33,6 @@
 		<!---------------------------INDSÆT ARTICLES TEMPLATE------------------->
 	</div>
 </template>
-
 <!-------------------------------------LAVER ARTICLES TEMPLATES-------------------->
 	<template id="archiveArticle-template">
 		<article class="archive__outherBox">
@@ -44,7 +43,6 @@
 			</a>
 		</article>
 	</template>
-
 <footer>
 	
 </footer>

@@ -5,38 +5,42 @@
 		<input class="w-350 h-45 mx-15 icon shreach bg-white-200 px-5 rounded" type="text" placeholder="Search news" name="search">
 		<button type="submit"></i></button>
 	</form>
-	<div class="dropdown border-white-200 border-b-2">
-		<button class="dropbtn flex px-15 items-center h-60 w-full" onclick="myFunction()">
-			<div class="w-35 h-35 flex bg-white shadow-b rounded-full items-center ">
-				<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
-			</div>
-			<p class="mx-25">Health</p>
-			<i class="ml-183 fas fa-chevron-right"></i>
-		</button>
-		<a class="dropdown-content index_cardList" id="myDropdown">
-			hej
-			<!-----------------------INSÆT CARDLIST HER -------------------------->
-		</a>
-	</div>
+	
+	<!-----------------------INSÆT CARDLIST HER -------------------------->
+		
 </main>
+
 <!-------------------------------------LAVER CATEGORIES TEMPLATES-------------------->
+
 <template id="archiveCategories-template">
-	<h3 class="archiveCategories__categori"></h3>
-	<i class="fas fa-chevron-down"></i>
-	<div class="archiveArticle-cardList">
-		<!---------------------------INDSÆT ARTICLES TEMPLATE------------------->
-	</div>
+	<a class="dropdown-content index_cardList" id="myDropdown">
+		<div class="dropdown border-white-200 border-b-2">
+			<button class="dropbtn flex px-15 items-center h-60 w-full" onclick="myFunction()">
+				<div class="w-35 h-35 flex bg-white shadow-b rounded-full items-center ">
+					<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
+				</div>
+
+				<!---------------------------INDSÆT ARTICLES TEMPLATE------------------->
+				
+				<i class="ml-183 fas fa-chevron-right"></i>
+			</button>
+		</div>
+	</a>
 </template>
+
 <!-------------------------------------LAVER ARTICLES TEMPLATES-------------------->
+	
 	<template id="archiveArticle-template">
-		<article class="archive__outherBox">
-			<a class="archive__article" href="">
-				<img class="archive__image" src="" alt="image featured">
-				<h4 class="archive__headetText"></h4>
-				<p class="archive__text"></p>
+		<article class="">
+			<a class="" href="">
+				<img class="" src="" alt="image featured">
+				<h4 class=""></h4>
+				<p class=""></p>
 			</a>
 		</article>
 	</template>
+
+	
 <script src="/assets/js/dropdown.js"></script>
 <%- include('../partials/footer') %>
 <%- include('../partials/after-footer') %>

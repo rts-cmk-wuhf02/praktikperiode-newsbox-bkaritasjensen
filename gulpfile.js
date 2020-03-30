@@ -62,6 +62,7 @@ function js(done) {
 }
 
 
+
 // Watchers
 function watchHtml() {
     gulp.watch("./src/html/**/*.ejs", { ignoreInitial: false }, html);
@@ -78,6 +79,7 @@ function watchCss() {
 function watchJs() {
     gulp.watch("./src/js/**/*.js", { ignoreInitial: false }, js);
 }
+
 
 
 gulp.task("dev", function(done) {
@@ -103,6 +105,9 @@ gulp.task("build", function(done) {
     done();
 });
 
+
+
+ 
 
 
 

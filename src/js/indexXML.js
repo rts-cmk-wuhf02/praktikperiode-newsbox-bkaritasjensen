@@ -1,4 +1,4 @@
-let xmlContent = '';
+/* let xmlContent = '';
 		let tableNews = document.getElementById('indexCategories-template');
 
 		fetch('HomePage.xml').then((response) =>{
@@ -26,7 +26,8 @@ let xmlContent = '';
 					
 					tableNews.children[1].appendChild(row); */
 
-					/* indexCategoryCardList.appendChild(clone); */
+					/* indexCategoryCardList.appendChild(clone); 
 				});
 			});
 		});
+ */

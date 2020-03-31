@@ -1139,3 +1139,7 @@ const srcDOM = parser.parseFromString(strxml, "application/xml");
 
 //Converting DOM Tree to json
 console.log(xml2json(srcDOM));
+
+const DOM = xml2json(srcDOM);
+
+document.querySelector(".index__categoriTitle").innerHTML = DOM.channel.title;

@@ -22,42 +22,29 @@
 		<button type="submit"></i></button>
 	</form>
 	<nav class="categories-cardList">
-
-		<!-----------------------INSÆT CARDLIST HER -------------------------->
-	
+		<a class="dropdown-content index_cardList" id="myDropdown">
+			<div class="dropdown border-white-200 border-b-2">
+				<button class="dropbtn flex px-15 items-center h-60 w-full" onclick="myFunction()">
+					<div class="w-35 h-35 flex bg-white shadow-b rounded-full items-center ">
+						<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
+						<p class="index__categoriTitle"></p>
+					</div>
+					<article class="">
+						<a class="" href="">
+							<img class="" src="" alt="image featured">
+							<h4 class=""></h4>
+							<p class=""></p>
+						</a>
+					</article>
+					<i class="ml-183 fas fa-chevron-right"></i>
+				</button>
+			</div>
+		</a>
 	</nav>		
 </main>
-
-<!-------------------------------------LAVER CATEGORIES TEMPLATES-------------------->
-
-<template id="categories-template">
-	<a class="dropdown-content index_cardList" id="myDropdown">
-		<div class="dropdown border-white-200 border-b-2">
-			<button class="dropbtn flex px-15 items-center h-60 w-full" onclick="myFunction()">
-				<div class="w-35 h-35 flex bg-white shadow-b rounded-full items-center ">
-					<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
-					<p class="index__categoriTitle"></p>
-				</div>
-
-				<!---------------------------INDSÆT ARTICLES TEMPLATE------------------->
-				
-				<i class="ml-183 fas fa-chevron-right"></i>
-			</button>
-		</div>
-	</a>
-</template>
-
-<!-------------------------------------LAVER ARTICLES TEMPLATES-------------------->
 	
-	<template id="article-template">
-		<article class="">
-			<a class="" href="">
-				<img class="" src="" alt="image featured">
-				<h4 class=""></h4>
-				<p class=""></p>
-			</a>
-		</article>
-	</template>
+		
+
 
 <script src="/assets/js/convertBusiness.js"></script>	
 <script src="/assets/js/convertHealth.js"></script>	

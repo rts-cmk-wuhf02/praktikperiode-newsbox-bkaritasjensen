@@ -70,5 +70,5 @@ var srcDOM = parser.parseFromString(strxml, "application/xml"); //Now we can cal
 //Converting DOM Tree to json
 
 console.log(xml2json(srcDOM));
-var DOM = xml2json(srcDOM);
-document.querySelector(".index__categoriTitle").innerHTML = DOM.channel.title;
+var DOMContent = xml2json(srcDOM);
+document.querySelector(".test").innerText = DOMContent.channel.title;

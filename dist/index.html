@@ -21,30 +21,41 @@
 		<input class="w-350 h-45 mx-15 icon shreach bg-white-200 px-5 rounded" type="text" placeholder="Search news" name="search">
 		<button type="submit"></i></button>
 	</form>
-	<nav class="categories-cardList">
+	<h1 class="test"></h1>
+	<nav class="categories-cardList h-100">
 		<a class="dropdown-content index_cardList" id="myDropdown">
 			<div class="dropdown border-white-200 border-b-2">
 				<button class="dropbtn flex px-15 items-center h-60 w-full" onclick="myFunction()">
 					<div class="w-35 h-35 flex bg-white shadow-b rounded-full items-center ">
 						<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
-						<p class="index__categoriTitle"></p>
+						<p class="index__categoriTitle">Hej</p>
 					</div>
-					<article class="">
-						<a class="" href="">
-							<img class="" src="" alt="image featured">
-							<h4 class=""></h4>
-							<p class=""></p>
-						</a>
-					</article>
+	
+					<!---------------------------INDSÆT ARTICLES TEMPLATE------------------->
+					
 					<i class="ml-183 fas fa-chevron-right"></i>
 				</button>
 			</div>
 		</a>
+	
 	</nav>		
 </main>
-	
-		
 
+
+
+
+
+<!-------------------------------------LAVER ARTICLES TEMPLATES-------------------->
+	
+	<template id="article-template">
+		<article class="">
+			<a class="" href="">
+				<img class="" src="" alt="image featured">
+				<h4 class=""></h4>
+				<p class=""></p>
+			</a>
+		</article>
+	</template>
 
 <script src="/assets/js/convertBusiness.js"></script>	
 <script src="/assets/js/convertHealth.js"></script>	

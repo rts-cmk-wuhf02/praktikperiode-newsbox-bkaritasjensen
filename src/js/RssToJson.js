@@ -46,11 +46,17 @@ fetch(RSS_URL_HomePage)
 		return convertData;
 	}).then (data =>{
 		//console.log(data.rss.channel.title);
-
 		const categoryTitle = data.rss.channel.title;
 		const titleRemove = categoryTitle.slice(9);
-
 		console.log(titleRemove)
+
+		const articleTemplate = document.getElementById("template_article");
+		const articleCardList = document.getElementById("article_cardList");
+		const clone = articleTemplate.content.cloneNode(true); 
+
+		clone.querySelector(".title1").innerText = titleRemove;
+
+		articleCardList.appendChild(clone);
 	});
 
 
@@ -66,11 +72,17 @@ const RSS_URL_Health = `https://rss.nytimes.com/services/xml/rss/nyt/Health.xml`
 			return convertData;
 		}).then (data =>{
 			//console.log(data.rss.channel.title);
-	
 			const categoryTitle = data.rss.channel.title;
 			const titleRemove = categoryTitle.slice(9);
-	
 			console.log(titleRemove)
+
+			const articleTemplate = document.getElementById("template_article");
+			const articleCardList = document.getElementById("article_cardList");
+			const clone = articleTemplate.content.cloneNode(true); 
+
+			clone.querySelector(".title1").innerText = titleRemove;
+
+			articleCardList.appendChild(clone);
 		});
 
 /////////////////////////////// BUSINESS //////////////////////////////////////////////////
@@ -85,11 +97,17 @@ const RSS_URL_Business = `https://rss.nytimes.com/services/xml/rss/nyt/Business.
 			return convertData;
 		}).then (data =>{
 			//console.log(data.rss.channel.title);
-	
 			const categoryTitle = data.rss.channel.title;
 			const titleRemove = categoryTitle.slice(9);
-	
 			console.log(titleRemove)
+
+			const articleTemplate = document.getElementById("template_article");
+			const articleCardList = document.getElementById("article_cardList");
+			const clone = articleTemplate.content.cloneNode(true); 
+
+			clone.querySelector(".title1").innerText = titleRemove;
+
+			articleCardList.appendChild(clone);
 		});
 
 /////////////////////////////// SPORT //////////////////////////////////////////////////
@@ -104,11 +122,17 @@ fetch(RSS_URL_Sport)
 		return convertData;
 	}).then (data =>{
 		//console.log(data.rss.channel.title);
-
 		const categoryTitle = data.rss.channel.title;
 		const titleRemove = categoryTitle.slice(9);
-
 		console.log(titleRemove)
+
+		const articleTemplate = document.getElementById("template_article");
+		const articleCardList = document.getElementById("article_cardList");
+		const clone = articleTemplate.content.cloneNode(true); 
+
+		clone.querySelector(".title1").innerText = titleRemove;
+
+		articleCardList.appendChild(clone);
 	});
 
 
@@ -125,11 +149,17 @@ fetch(RSS_URL_Tech)
 		return convertData;
 	}).then (data =>{
 		//console.log(data.rss.channel.title);
-
 		const categoryTitle = data.rss.channel.title;
 		const titleRemove = categoryTitle.slice(9);
-
 		console.log(titleRemove)
+
+		const articleTemplate = document.getElementById("template_article");
+		const articleCardList = document.getElementById("article_cardList");
+		const clone = articleTemplate.content.cloneNode(true); 
+
+		clone.querySelector(".title1").innerText = titleRemove;
+
+		articleCardList.appendChild(clone);
 	});
 
 
@@ -145,11 +175,17 @@ fetch(RSS_URL_Science)
 		return convertData;
 	}).then (data =>{
 		//console.log(data.rss.channel.title);
-
 		const categoryTitle = data.rss.channel.title;
 		const titleRemove = categoryTitle.slice(9);
-
 		console.log(titleRemove)
+
+		const articleTemplate = document.getElementById("template_article");
+		const articleCardList = document.getElementById("article_cardList");
+		const clone = articleTemplate.content.cloneNode(true); 
+
+		clone.querySelector(".title1").innerText = titleRemove;
+
+		articleCardList.appendChild(clone);
 	});
 
 
@@ -166,11 +202,17 @@ fetch(RSS_URL_World)
 		return convertData;
 	}).then (data =>{
 		//console.log(data.rss.channel.title);
-
 		const categoryTitle = data.rss.channel.title;
 		const titleRemove = categoryTitle.slice(9);
-
 		console.log(titleRemove)
+
+		const articleTemplate = document.getElementById("template_article");
+		const articleCardList = document.getElementById("article_cardList");
+		const clone = articleTemplate.content.cloneNode(true); 
+
+		clone.querySelector(".title1").innerText = titleRemove;
+
+		articleCardList.appendChild(clone);
 	});
 
 

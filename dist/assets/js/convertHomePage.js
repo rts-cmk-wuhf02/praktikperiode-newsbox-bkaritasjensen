@@ -71,4 +71,6 @@ var srcDOM = parser.parseFromString(strxml, "application/xml"); //Now we can cal
 
 console.log(xml2json(srcDOM));
 var DOMContent = xml2json(srcDOM);
-document.querySelector(".test").innerText = DOMContent.channel.title;
+var DOMTitle = DOMContent.channel.title;
+var DOMTitleRemove = DOMTitle.slice(9);
+document.querySelector(".title1").innerText = DOMTitleRemove;

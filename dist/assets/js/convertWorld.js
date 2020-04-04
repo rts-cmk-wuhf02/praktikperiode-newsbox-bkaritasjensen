@@ -70,3 +70,7 @@ var srcDOM = parser.parseFromString(strxml, "application/xml"); //Now we can cal
 //Converting DOM Tree to json
 
 console.log(xml2json(srcDOM));
+var DOMContent = xml2json(srcDOM);
+var DOMTitle = DOMContent.channel.title;
+var DOMTitleRemove = DOMTitle.slice(9);
+document.querySelector(".titel6").innerText = DOMTitleRemove;

@@ -50,13 +50,21 @@ fetch(RSS_URL_HomePage)
 		const titleRemove = categoryTitle.slice(9);
 		console.log(titleRemove)
 
-		const articleTemplate = document.getElementById("template_article");
-		const articleCardList = document.getElementById("article_cardList");
-		const clone = articleTemplate.content.cloneNode(true); 
+		/////////////////// CATEGORY
+		const categoriesTemplate = document.getElementById("template_categories");
+		const categoriesCardList = document.getElementById("categories_cardList");
+		const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+		
+		////////////////// ARTICLES
+		const articleCardList = document.querySelector(".articles_cardList");
+		const articleTemplate = document.getElementById("template_articles");
+		const cloneArticles = articleTemplate.content.cloneNode(true);
+		
+		cloneCategories.querySelector(".title1").innerText = titleRemove;
+		cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
 
-		clone.querySelector(".title1").innerText = titleRemove;
-
-		articleCardList.appendChild(clone);
+		categoriesCardList.appendChild(cloneCategories);
+		//articleCardList.appendChild(cloneArticles);
 	});
 
 
@@ -76,13 +84,21 @@ const RSS_URL_Health = `https://rss.nytimes.com/services/xml/rss/nyt/Health.xml`
 			const titleRemove = categoryTitle.slice(9);
 			console.log(titleRemove)
 
-			const articleTemplate = document.getElementById("template_article");
-			const articleCardList = document.getElementById("article_cardList");
-			const clone = articleTemplate.content.cloneNode(true); 
-
-			clone.querySelector(".title1").innerText = titleRemove;
-
-			articleCardList.appendChild(clone);
+			/////////////////// CATEGORY
+			const categoriesTemplate = document.getElementById("template_categories");
+			const categoriesCardList = document.getElementById("categories_cardList");
+			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+			
+			////////////////// ARTICLES
+			const articleCardList = document.querySelector(".articles_cardList");
+			const articleTemplate = document.getElementById("template_articles");
+			const cloneArticles = articleTemplate.content.cloneNode(true);
+			
+			cloneCategories.querySelector(".title1").innerText = titleRemove;
+			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+	
+			categoriesCardList.appendChild(cloneCategories);
+			articleCardList.appendChild(cloneArticles);
 		});
 
 /////////////////////////////// BUSINESS //////////////////////////////////////////////////
@@ -101,13 +117,21 @@ const RSS_URL_Business = `https://rss.nytimes.com/services/xml/rss/nyt/Business.
 			const titleRemove = categoryTitle.slice(9);
 			console.log(titleRemove)
 
-			const articleTemplate = document.getElementById("template_article");
-			const articleCardList = document.getElementById("article_cardList");
-			const clone = articleTemplate.content.cloneNode(true); 
-
-			clone.querySelector(".title1").innerText = titleRemove;
-
-			articleCardList.appendChild(clone);
+			/////////////////// CATEGORY
+			const categoriesTemplate = document.getElementById("template_categories");
+			const categoriesCardList = document.getElementById("categories_cardList");
+			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+			
+			////////////////// ARTICLES
+			const articleCardList = document.querySelector(".articles_cardList");
+			const articleTemplate = document.getElementById("template_articles");
+			const cloneArticles = articleTemplate.content.cloneNode(true);
+			
+			cloneCategories.querySelector(".title1").innerText = titleRemove;
+			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+	
+			categoriesCardList.appendChild(cloneCategories);
+			articleCardList.appendChild(cloneArticles);
 		});
 
 /////////////////////////////// SPORT //////////////////////////////////////////////////
@@ -126,13 +150,21 @@ fetch(RSS_URL_Sport)
 		const titleRemove = categoryTitle.slice(9);
 		console.log(titleRemove)
 
-		const articleTemplate = document.getElementById("template_article");
-		const articleCardList = document.getElementById("article_cardList");
-		const clone = articleTemplate.content.cloneNode(true); 
-
-		clone.querySelector(".title1").innerText = titleRemove;
-
-		articleCardList.appendChild(clone);
+			/////////////////// CATEGORY
+			const categoriesTemplate = document.getElementById("template_categories");
+			const categoriesCardList = document.getElementById("categories_cardList");
+			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+			
+			////////////////// ARTICLES
+			const articleCardList = document.querySelector(".articles_cardList");
+			const articleTemplate = document.getElementById("template_articles");
+			const cloneArticles = articleTemplate.content.cloneNode(true);
+			
+			cloneCategories.querySelector(".title1").innerText = titleRemove;
+			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+	
+			categoriesCardList.appendChild(cloneCategories);
+			articleCardList.appendChild(cloneArticles);
 	});
 
 
@@ -153,13 +185,21 @@ fetch(RSS_URL_Tech)
 		const titleRemove = categoryTitle.slice(9);
 		console.log(titleRemove)
 
-		const articleTemplate = document.getElementById("template_article");
-		const articleCardList = document.getElementById("article_cardList");
-		const clone = articleTemplate.content.cloneNode(true); 
-
-		clone.querySelector(".title1").innerText = titleRemove;
-
-		articleCardList.appendChild(clone);
+			/////////////////// CATEGORY
+			const categoriesTemplate = document.getElementById("template_categories");
+			const categoriesCardList = document.getElementById("categories_cardList");
+			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+			
+			////////////////// ARTICLES
+			const articleCardList = document.querySelector(".articles_cardList");
+			const articleTemplate = document.getElementById("template_articles");
+			const cloneArticles = articleTemplate.content.cloneNode(true);
+			
+			cloneCategories.querySelector(".title1").innerText = titleRemove;
+			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+	
+			categoriesCardList.appendChild(cloneCategories);
+			articleCardList.appendChild(cloneArticles);
 	});
 
 
@@ -179,13 +219,21 @@ fetch(RSS_URL_Science)
 		const titleRemove = categoryTitle.slice(9);
 		console.log(titleRemove)
 
-		const articleTemplate = document.getElementById("template_article");
-		const articleCardList = document.getElementById("article_cardList");
-		const clone = articleTemplate.content.cloneNode(true); 
-
-		clone.querySelector(".title1").innerText = titleRemove;
-
-		articleCardList.appendChild(clone);
+			/////////////////// CATEGORY
+			const categoriesTemplate = document.getElementById("template_categories");
+			const categoriesCardList = document.getElementById("categories_cardList");
+			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+			
+			////////////////// ARTICLES
+			const articleCardList = document.querySelector(".articles_cardList");
+			const articleTemplate = document.getElementById("template_articles");
+			const cloneArticles = articleTemplate.content.cloneNode(true);
+			
+			cloneCategories.querySelector(".title1").innerText = titleRemove;
+			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+	
+			categoriesCardList.appendChild(cloneCategories);
+			articleCardList.appendChild(cloneArticles);
 	});
 
 
@@ -196,23 +244,31 @@ const RSS_URL_World = `https://rss.nytimes.com/services/xml/rss/nyt/World.xml`;
 fetch(RSS_URL_World)
   .then(response => response.text())
   .then((data) => {
-		  const parser = new DOMParser(); // initialize dom parser
-		  const srcDOM = parser.parseFromString(data, "application/xml"); 
+		const parser = new DOMParser(); // initialize dom parser
+		const srcDOM = parser.parseFromString(data, "application/xml"); 
 		const convertData = xml2json(srcDOM);
 		return convertData;
 	}).then (data =>{
 		//console.log(data.rss.channel.title);
 		const categoryTitle = data.rss.channel.title;
 		const titleRemove = categoryTitle.slice(9);
-		console.log(titleRemove)
+		console.log(data.rss.channel.item[0].title)
+		
+		/////////////////// CATEGORY
+		const categoriesTemplate = document.getElementById("template_categories");
+		const categoriesCardList = document.getElementById("categories_cardList");
+		const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+		
+		////////////////// ARTICLES
+		const articleCardList = document.querySelector(".articles_cardList");
+		const articleTemplate = document.getElementById("template_articles");
+		const cloneArticles = articleTemplate.content.cloneNode(true);
+		
+		cloneCategories.querySelector(".title1").innerText = titleRemove;
+		cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
 
-		const articleTemplate = document.getElementById("template_article");
-		const articleCardList = document.getElementById("article_cardList");
-		const clone = articleTemplate.content.cloneNode(true); 
-
-		clone.querySelector(".title1").innerText = titleRemove;
-
-		articleCardList.appendChild(clone);
+		categoriesCardList.appendChild(cloneCategories);
+		articleCardList.appendChild(cloneArticles);
 	});
 
 

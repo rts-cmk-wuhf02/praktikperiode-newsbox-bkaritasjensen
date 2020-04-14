@@ -21,30 +21,32 @@
 		<input class="w-350 h-45 mx-15 icon shreach bg-white-200 px-5 rounded" type="text" placeholder="Search news" name="search">
 		<button type="submit"></i></button>
 	</form>
-	<div id="article_cardList">
+	<div id="categories_cardList">
 
 	</div>
 
 </main>
-<template id="template_article">
+<template id="template_categories">
 	<div class="dropdown border-white-200 border-b-2">
-		<div class="flex py-10">
-			<div class="w-35 h-35 flex bg-white shadow-b rounded-full items-center mx-10">
-				<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
-			</div>
-			<button class="title1 dropbtn" onclick="myFunction()">
+		<div class="py-10">
+			<button class="dropbtn flex items-center" onclick="myFunction(this)">
+				<div class="w-35 h-35 flex bg-white shadow-b rounded-full items-center mx-10">
+					<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
+				</div>
+				<p class="title1"></p>
+				<i class="ml-173 mr-10 my-10 fas fa-chevron-right"></i>
 			</button>
-			<i class="ml-173 mr-10 my-10 fas fa-chevron-right"></i>
 		</div>
-		<a class="dropdown-content index_cardList" id="myDropdown">
-			hej
+		<div class="dropdown-content articles_cardList" id="myDropdown">
 			<!-----------------------INSÆT CARDLIST HER -------------------------->
-		</a>
+		</div>
 	</div> 
 </template>
 
 
-
+<template id="template_articles">
+	<p class="article"></p>
+</template>
 
 
 

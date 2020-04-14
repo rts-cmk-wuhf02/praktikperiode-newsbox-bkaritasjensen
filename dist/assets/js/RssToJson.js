@@ -82,14 +82,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ////////////////// ARTICLES
+    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
+
+    var button = cloneCategories.querySelector(".dropbtn");
+    button.setAttribute("id", "button1"); ////////////////// ARTICLES
 
     var articleCardList = document.querySelector(".articles_cardList");
     var articleTemplate = document.getElementById("template_articles");
     var cloneArticles = articleTemplate.content.cloneNode(true);
     cloneCategories.querySelector(".title1").innerText = titleRemove;
     cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-    categoriesCardList.appendChild(cloneCategories); //articleCardList.appendChild(cloneArticles);
+    categoriesCardList.appendChild(cloneCategories);
   }); /////////////////////////////////////// HEALTH ////////////////////////////////////////
 
   var RSS_URL_Health = "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml";
@@ -109,7 +112,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ////////////////// ARTICLES
+    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
+
+    var button = cloneCategories.querySelector(".dropbtn");
+    button.setAttribute("id", "button2"); ////////////////// ARTICLES
 
     var articleCardList = document.querySelector(".articles_cardList");
     var articleTemplate = document.getElementById("template_articles");
@@ -137,7 +143,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ////////////////// ARTICLES
+    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
+
+    var button = cloneCategories.querySelector(".dropbtn");
+    button.setAttribute("id", "button3"); ////////////////// ARTICLES
 
     var articleCardList = document.querySelector(".articles_cardList");
     var articleTemplate = document.getElementById("template_articles");
@@ -165,7 +174,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ////////////////// ARTICLES
+    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
+
+    var button = cloneCategories.querySelector(".dropbtn");
+    button.setAttribute("id", "button4"); ////////////////// ARTICLES
 
     var articleCardList = document.querySelector(".articles_cardList");
     var articleTemplate = document.getElementById("template_articles");
@@ -193,7 +205,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ////////////////// ARTICLES
+    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
+
+    var button = cloneCategories.querySelector(".dropbtn");
+    button.setAttribute("id", "button5"); ////////////////// ARTICLES
 
     var articleCardList = document.querySelector(".articles_cardList");
     var articleTemplate = document.getElementById("template_articles");
@@ -221,7 +236,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ////////////////// ARTICLES
+    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
+
+    var button = cloneCategories.querySelector(".dropbtn");
+    button.setAttribute("id", "button6"); ////////////////// ARTICLES
 
     var articleCardList = document.querySelector(".articles_cardList");
     var articleTemplate = document.getElementById("template_articles");
@@ -249,7 +267,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ////////////////// ARTICLES
+    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
+
+    var button = cloneCategories.querySelector(".dropbtn");
+    button.setAttribute("id", "button7"); ////////////////// ARTICLES
 
     var articleCardList = document.querySelector(".articles_cardList");
     var articleTemplate = document.getElementById("template_articles");

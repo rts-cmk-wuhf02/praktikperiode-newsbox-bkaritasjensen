@@ -54,6 +54,10 @@ fetch(RSS_URL_HomePage)
 		const categoriesTemplate = document.getElementById("template_categories");
 		const categoriesCardList = document.getElementById("categories_cardList");
 		const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+
+		///////////////// BUTTON
+		const button = cloneCategories.querySelector(".dropbtn");
+		button.setAttribute("id", "button1");
 		
 		////////////////// ARTICLES
 		const articleCardList = document.querySelector(".articles_cardList");
@@ -62,9 +66,9 @@ fetch(RSS_URL_HomePage)
 		
 		cloneCategories.querySelector(".title1").innerText = titleRemove;
 		cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-
+	
 		categoriesCardList.appendChild(cloneCategories);
-		//articleCardList.appendChild(cloneArticles);
+		
 	});
 
 
@@ -88,6 +92,10 @@ const RSS_URL_Health = `https://rss.nytimes.com/services/xml/rss/nyt/Health.xml`
 			const categoriesTemplate = document.getElementById("template_categories");
 			const categoriesCardList = document.getElementById("categories_cardList");
 			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+
+			///////////////// BUTTON
+			const button = cloneCategories.querySelector(".dropbtn");
+			button.setAttribute("id", "button2");
 			
 			////////////////// ARTICLES
 			const articleCardList = document.querySelector(".articles_cardList");
@@ -121,6 +129,10 @@ const RSS_URL_Business = `https://rss.nytimes.com/services/xml/rss/nyt/Business.
 			const categoriesTemplate = document.getElementById("template_categories");
 			const categoriesCardList = document.getElementById("categories_cardList");
 			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+
+			///////////////// BUTTON
+			const button = cloneCategories.querySelector(".dropbtn");
+			button.setAttribute("id", "button3");
 			
 			////////////////// ARTICLES
 			const articleCardList = document.querySelector(".articles_cardList");
@@ -154,6 +166,10 @@ fetch(RSS_URL_Sport)
 			const categoriesTemplate = document.getElementById("template_categories");
 			const categoriesCardList = document.getElementById("categories_cardList");
 			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+
+			///////////////// BUTTON
+			const button = cloneCategories.querySelector(".dropbtn");
+			button.setAttribute("id", "button4");
 			
 			////////////////// ARTICLES
 			const articleCardList = document.querySelector(".articles_cardList");
@@ -189,6 +205,10 @@ fetch(RSS_URL_Tech)
 			const categoriesTemplate = document.getElementById("template_categories");
 			const categoriesCardList = document.getElementById("categories_cardList");
 			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+
+			///////////////// BUTTON
+			const button = cloneCategories.querySelector(".dropbtn");
+			button.setAttribute("id", "button5");
 			
 			////////////////// ARTICLES
 			const articleCardList = document.querySelector(".articles_cardList");
@@ -223,6 +243,10 @@ fetch(RSS_URL_Science)
 			const categoriesTemplate = document.getElementById("template_categories");
 			const categoriesCardList = document.getElementById("categories_cardList");
 			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+
+			///////////////// BUTTON
+			const button = cloneCategories.querySelector(".dropbtn");
+			button.setAttribute("id", "button6");
 			
 			////////////////// ARTICLES
 			const articleCardList = document.querySelector(".articles_cardList");
@@ -258,6 +282,10 @@ fetch(RSS_URL_World)
 		const categoriesTemplate = document.getElementById("template_categories");
 		const categoriesCardList = document.getElementById("categories_cardList");
 		const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+
+		///////////////// BUTTON
+		const button = cloneCategories.querySelector(".dropbtn");
+		button.setAttribute("id", "button7");
 		
 		////////////////// ARTICLES
 		const articleCardList = document.querySelector(".articles_cardList");

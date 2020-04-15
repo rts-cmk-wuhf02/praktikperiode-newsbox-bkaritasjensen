@@ -1,24 +1,32 @@
 <%- include ('../partials/head') %>
 <main>
 	<%- include ('../partials/settings_nav') %>
-	
-	<h1 class="settings__headText">Manage</h1>
-	<h5 class="settings__headCategories">Categories</h5>
-	<div>
-		<div class="settings-cardList">
-			<!-----------------------INSÆT TEMPLATE------------------------>
+	<section class="text-center bg-white-400 border-t-2 border-white-500">
+		<h1 class="text-30 font-bold text-green-100">Manage</h1>
+		<h5 class="text-white-500">Categories</h5>
+		<div>
+			<div id="settings_cardList">
+				<!-----------------------INSÆT TEMPLATE------------------------>
+			</div>
 		</div>
-	</div>
-	<button>
-		<p>Toggle dark mode</p>
-	</button>
+		<button class="mb-50 mt-100 border-solid border-2 border-white-500 rounded-full w-180 h-50">
+			<p class="text-blue-300 textTransform uppercase text-14 w-173 tracking-wider">Toggle dark mode</p>
+		</button>
+	</section>
 </main>
 
 <!---------------------------LAVER TEMPLATE-------------------------->
-<template id="settings-template">
-	<h5 class="settings__categoryName"></h5>
-	<input class="settings__categorySwitch">
+<template id="template_settings">
+	<div class="w-4/5">
+		<h5 class="categoryTitle"></h5>
+		<input class="">
+		<span class="cursor-pointer bg-white-200 w-50 h-30"></span>
+	</div>
 </template>
+
+<script src="/assets/js/tema.js"></script>
+<script src="/assets/js/historyBack.js"></script>
+<script src="/assets/js/RssToJson.js"></script>
 
 <%- include ('../partials/footer') %>
 <%- include ('../partials/after-footer') %>

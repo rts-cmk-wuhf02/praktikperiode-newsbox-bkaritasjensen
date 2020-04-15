@@ -51,9 +51,15 @@ fetch(RSS_URL_HomePage)
 		console.log(titleRemove)
 
 		/////////////////// CATEGORY
+		////// INDEX & ARCHIVE
 		const categoriesTemplate = document.getElementById("template_categories");
 		const categoriesCardList = document.getElementById("categories_cardList");
 		const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+		///// SETTINGS
+		const settingsTemplate = document.getElementById("template_settings");
+		const settingsCardList = document.getElementById("settings_cardList");
+		const cloneSettings = settingsTemplate.content.cloneNode(true); 
+
 
 		///////////////// BUTTON
 		const button = cloneCategories.querySelector(".dropbtn");
@@ -63,15 +69,22 @@ fetch(RSS_URL_HomePage)
 		const articleCardList = document.querySelector(".articles_cardList");
 		const articleTemplate = document.getElementById("template_articles");
 		const cloneArticles = articleTemplate.content.cloneNode(true);
-		
-		cloneCategories.querySelector(".title1").innerText = titleRemove;
+
+		////////////////////////////// SET DATA
+		///// TITLE - INDEX, ARCHIVE 
+		cloneCategories.querySelector(".title").innerText = titleRemove;
 		cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-	
+		///// SETTINGS
+		cloneSettings.querySelector(".categoryTitle").innerText = titleRemove;
+
+
+		///////////////////////// CLONE
 		categoriesCardList.appendChild(cloneCategories);
-		
+		articleCardList.appendChild(cloneArticles);
+		settingsCardList.appendChild(cloneSettings);
 	});
 
-
+/* 
 /////////////////////////////////////// HEALTH ////////////////////////////////////////
 const RSS_URL_Health = `https://rss.nytimes.com/services/xml/rss/nyt/Health.xml`;
 
@@ -297,7 +310,7 @@ fetch(RSS_URL_World)
 
 		categoriesCardList.appendChild(cloneCategories);
 		articleCardList.appendChild(cloneArticles);
-	});
+	}); */
 
 
 

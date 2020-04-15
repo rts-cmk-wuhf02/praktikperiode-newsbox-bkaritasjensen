@@ -6,6 +6,9 @@
         white: {
           default: '#fff',
           200: '#F0F3F4',
+          300: '#E0E1E2',
+          400: '#ECEFF0',
+          500: '#C8D1D3',
         },
         black: {
           default: '#1B1C20',
@@ -13,6 +16,7 @@
         blue: {
           100: '#6E8CA0',
           200: '#324755',
+          300: '#334856',
         },
         green: {
           100: '#87BCBF',
@@ -30,10 +34,6 @@
           'Roberto',
           'sans-serif',
         ],
-        'oswald': [
-          'Oswald',
-          'sans-serif',
-        ]
       },
       fontSize: {
         '8': '.5rem',

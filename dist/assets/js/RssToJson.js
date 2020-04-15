@@ -79,205 +79,258 @@ document.addEventListener("DOMContentLoaded", function () {
     var categoryTitle = data.rss.channel.title;
     var titleRemove = categoryTitle.slice(9);
     console.log(titleRemove); /////////////////// CATEGORY
+    ////// INDEX & ARCHIVE
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
+    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///// SETTINGS
+
+    var settingsTemplate = document.getElementById("template_settings");
+    var settingsCardList = document.getElementById("settings_cardList");
+    var cloneSettings = settingsTemplate.content.cloneNode(true); ///////////////// BUTTON
 
     var button = cloneCategories.querySelector(".dropbtn");
     button.setAttribute("id", "button1"); ////////////////// ARTICLES
 
     var articleCardList = document.querySelector(".articles_cardList");
     var articleTemplate = document.getElementById("template_articles");
-    var cloneArticles = articleTemplate.content.cloneNode(true);
-    cloneCategories.querySelector(".title1").innerText = titleRemove;
-    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-    categoriesCardList.appendChild(cloneCategories);
-  }); /////////////////////////////////////// HEALTH ////////////////////////////////////////
+    var cloneArticles = articleTemplate.content.cloneNode(true); ////////////////////////////// SET DATA
+    ///// TITLE - INDEX, ARCHIVE 
 
-  var RSS_URL_Health = "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml";
-  fetch(RSS_URL_Health).then(function (response) {
-    return response.text();
-  }).then(function (data) {
-    var parser = new DOMParser(); // initialize dom parser
+    cloneCategories.querySelector(".title").innerText = titleRemove;
+    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title; ///// SETTINGS
 
-    var srcDOM = parser.parseFromString(data, "application/xml");
-    var convertData = xml2json(srcDOM);
-    return convertData;
-  }).then(function (data) {
-    //console.log(data.rss.channel.title);
-    var categoryTitle = data.rss.channel.title;
-    var titleRemove = categoryTitle.slice(9);
-    console.log(titleRemove); /////////////////// CATEGORY
+    cloneSettings.querySelector(".categoryTitle").innerText = titleRemove; ///////////////////////// CLONE
 
-    var categoriesTemplate = document.getElementById("template_categories");
-    var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
-
-    var button = cloneCategories.querySelector(".dropbtn");
-    button.setAttribute("id", "button2"); ////////////////// ARTICLES
-
-    var articleCardList = document.querySelector(".articles_cardList");
-    var articleTemplate = document.getElementById("template_articles");
-    var cloneArticles = articleTemplate.content.cloneNode(true);
-    cloneCategories.querySelector(".title1").innerText = titleRemove;
-    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
     categoriesCardList.appendChild(cloneCategories);
     articleCardList.appendChild(cloneArticles);
-  }); /////////////////////////////// BUSINESS //////////////////////////////////////////////////
-
-  var RSS_URL_Business = "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml";
-  fetch(RSS_URL_Business).then(function (response) {
-    return response.text();
-  }).then(function (data) {
-    var parser = new DOMParser(); // initialize dom parser
-
-    var srcDOM = parser.parseFromString(data, "application/xml");
-    var convertData = xml2json(srcDOM);
-    return convertData;
-  }).then(function (data) {
-    //console.log(data.rss.channel.title);
-    var categoryTitle = data.rss.channel.title;
-    var titleRemove = categoryTitle.slice(9);
-    console.log(titleRemove); /////////////////// CATEGORY
-
-    var categoriesTemplate = document.getElementById("template_categories");
-    var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
-
-    var button = cloneCategories.querySelector(".dropbtn");
-    button.setAttribute("id", "button3"); ////////////////// ARTICLES
-
-    var articleCardList = document.querySelector(".articles_cardList");
-    var articleTemplate = document.getElementById("template_articles");
-    var cloneArticles = articleTemplate.content.cloneNode(true);
-    cloneCategories.querySelector(".title1").innerText = titleRemove;
-    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-    categoriesCardList.appendChild(cloneCategories);
-    articleCardList.appendChild(cloneArticles);
-  }); /////////////////////////////// SPORT //////////////////////////////////////////////////
-
-  var RSS_URL_Sport = "https://rss.nytimes.com/services/xml/rss/nyt/Sports.xml";
-  fetch(RSS_URL_Sport).then(function (response) {
-    return response.text();
-  }).then(function (data) {
-    var parser = new DOMParser(); // initialize dom parser
-
-    var srcDOM = parser.parseFromString(data, "application/xml");
-    var convertData = xml2json(srcDOM);
-    return convertData;
-  }).then(function (data) {
-    //console.log(data.rss.channel.title);
-    var categoryTitle = data.rss.channel.title;
-    var titleRemove = categoryTitle.slice(9);
-    console.log(titleRemove); /////////////////// CATEGORY
-
-    var categoriesTemplate = document.getElementById("template_categories");
-    var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
-
-    var button = cloneCategories.querySelector(".dropbtn");
-    button.setAttribute("id", "button4"); ////////////////// ARTICLES
-
-    var articleCardList = document.querySelector(".articles_cardList");
-    var articleTemplate = document.getElementById("template_articles");
-    var cloneArticles = articleTemplate.content.cloneNode(true);
-    cloneCategories.querySelector(".title1").innerText = titleRemove;
-    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-    categoriesCardList.appendChild(cloneCategories);
-    articleCardList.appendChild(cloneArticles);
-  }); /////////////////////////////// TECH //////////////////////////////////////////////////
-
-  var RSS_URL_Tech = "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml";
-  fetch(RSS_URL_Tech).then(function (response) {
-    return response.text();
-  }).then(function (data) {
-    var parser = new DOMParser(); // initialize dom parser
-
-    var srcDOM = parser.parseFromString(data, "application/xml");
-    var convertData = xml2json(srcDOM);
-    return convertData;
-  }).then(function (data) {
-    //console.log(data.rss.channel.title);
-    var categoryTitle = data.rss.channel.title;
-    var titleRemove = categoryTitle.slice(9);
-    console.log(titleRemove); /////////////////// CATEGORY
-
-    var categoriesTemplate = document.getElementById("template_categories");
-    var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
-
-    var button = cloneCategories.querySelector(".dropbtn");
-    button.setAttribute("id", "button5"); ////////////////// ARTICLES
-
-    var articleCardList = document.querySelector(".articles_cardList");
-    var articleTemplate = document.getElementById("template_articles");
-    var cloneArticles = articleTemplate.content.cloneNode(true);
-    cloneCategories.querySelector(".title1").innerText = titleRemove;
-    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-    categoriesCardList.appendChild(cloneCategories);
-    articleCardList.appendChild(cloneArticles);
-  }); /////////////////////////////// SCIENCE //////////////////////////////////////////////////
-
-  var RSS_URL_Science = "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml";
-  fetch(RSS_URL_Science).then(function (response) {
-    return response.text();
-  }).then(function (data) {
-    var parser = new DOMParser(); // initialize dom parser
-
-    var srcDOM = parser.parseFromString(data, "application/xml");
-    var convertData = xml2json(srcDOM);
-    return convertData;
-  }).then(function (data) {
-    //console.log(data.rss.channel.title);
-    var categoryTitle = data.rss.channel.title;
-    var titleRemove = categoryTitle.slice(9);
-    console.log(titleRemove); /////////////////// CATEGORY
-
-    var categoriesTemplate = document.getElementById("template_categories");
-    var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
-
-    var button = cloneCategories.querySelector(".dropbtn");
-    button.setAttribute("id", "button6"); ////////////////// ARTICLES
-
-    var articleCardList = document.querySelector(".articles_cardList");
-    var articleTemplate = document.getElementById("template_articles");
-    var cloneArticles = articleTemplate.content.cloneNode(true);
-    cloneCategories.querySelector(".title1").innerText = titleRemove;
-    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-    categoriesCardList.appendChild(cloneCategories);
-    articleCardList.appendChild(cloneArticles);
-  }); /////////////////////////////// WORLD //////////////////////////////////////////////////
-
-  var RSS_URL_World = "https://rss.nytimes.com/services/xml/rss/nyt/World.xml";
-  fetch(RSS_URL_World).then(function (response) {
-    return response.text();
-  }).then(function (data) {
-    var parser = new DOMParser(); // initialize dom parser
-
-    var srcDOM = parser.parseFromString(data, "application/xml");
-    var convertData = xml2json(srcDOM);
-    return convertData;
-  }).then(function (data) {
-    //console.log(data.rss.channel.title);
-    var categoryTitle = data.rss.channel.title;
-    var titleRemove = categoryTitle.slice(9);
-    console.log(data.rss.channel.item[0].title); /////////////////// CATEGORY
-
-    var categoriesTemplate = document.getElementById("template_categories");
-    var categoriesCardList = document.getElementById("categories_cardList");
-    var cloneCategories = categoriesTemplate.content.cloneNode(true); ///////////////// BUTTON
-
-    var button = cloneCategories.querySelector(".dropbtn");
-    button.setAttribute("id", "button7"); ////////////////// ARTICLES
-
-    var articleCardList = document.querySelector(".articles_cardList");
-    var articleTemplate = document.getElementById("template_articles");
-    var cloneArticles = articleTemplate.content.cloneNode(true);
-    cloneCategories.querySelector(".title1").innerText = titleRemove;
-    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
-    categoriesCardList.appendChild(cloneCategories);
-    articleCardList.appendChild(cloneArticles);
+    settingsCardList.appendChild(cloneSettings);
   });
+  /* 
+  /////////////////////////////////////// HEALTH ////////////////////////////////////////
+  const RSS_URL_Health = `https://rss.nytimes.com/services/xml/rss/nyt/Health.xml`;
+  
+  	fetch(RSS_URL_Health)
+  	  .then(response => response.text())
+  	  .then((data) => {
+  			  const parser = new DOMParser(); // initialize dom parser
+  			  const srcDOM = parser.parseFromString(data, "application/xml"); 
+  			const convertData = xml2json(srcDOM);
+  			return convertData;
+  		}).then (data =>{
+  			//console.log(data.rss.channel.title);
+  			const categoryTitle = data.rss.channel.title;
+  			const titleRemove = categoryTitle.slice(9);
+  			console.log(titleRemove)
+  
+  			/////////////////// CATEGORY
+  			const categoriesTemplate = document.getElementById("template_categories");
+  			const categoriesCardList = document.getElementById("categories_cardList");
+  			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+  
+  			///////////////// BUTTON
+  			const button = cloneCategories.querySelector(".dropbtn");
+  			button.setAttribute("id", "button2");
+  			
+  			////////////////// ARTICLES
+  			const articleCardList = document.querySelector(".articles_cardList");
+  			const articleTemplate = document.getElementById("template_articles");
+  			const cloneArticles = articleTemplate.content.cloneNode(true);
+  			
+  			cloneCategories.querySelector(".title1").innerText = titleRemove;
+  			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+  	
+  			categoriesCardList.appendChild(cloneCategories);
+  			articleCardList.appendChild(cloneArticles);
+  		});
+  
+  /////////////////////////////// BUSINESS //////////////////////////////////////////////////
+  const RSS_URL_Business = `https://rss.nytimes.com/services/xml/rss/nyt/Business.xml`;
+  
+  	fetch(RSS_URL_Business)
+  	  .then(response => response.text())
+  	  .then((data) => {
+  			  const parser = new DOMParser(); // initialize dom parser
+  			  const srcDOM = parser.parseFromString(data, "application/xml"); 
+  			const convertData = xml2json(srcDOM);
+  			return convertData;
+  		}).then (data =>{
+  			//console.log(data.rss.channel.title);
+  			const categoryTitle = data.rss.channel.title;
+  			const titleRemove = categoryTitle.slice(9);
+  			console.log(titleRemove)
+  
+  			/////////////////// CATEGORY
+  			const categoriesTemplate = document.getElementById("template_categories");
+  			const categoriesCardList = document.getElementById("categories_cardList");
+  			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+  
+  			///////////////// BUTTON
+  			const button = cloneCategories.querySelector(".dropbtn");
+  			button.setAttribute("id", "button3");
+  			
+  			////////////////// ARTICLES
+  			const articleCardList = document.querySelector(".articles_cardList");
+  			const articleTemplate = document.getElementById("template_articles");
+  			const cloneArticles = articleTemplate.content.cloneNode(true);
+  			
+  			cloneCategories.querySelector(".title1").innerText = titleRemove;
+  			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+  	
+  			categoriesCardList.appendChild(cloneCategories);
+  			articleCardList.appendChild(cloneArticles);
+  		});
+  
+  /////////////////////////////// SPORT //////////////////////////////////////////////////
+  const RSS_URL_Sport = `https://rss.nytimes.com/services/xml/rss/nyt/Sports.xml`;
+  
+  fetch(RSS_URL_Sport)
+    .then(response => response.text())
+    .then((data) => {
+  		  const parser = new DOMParser(); // initialize dom parser
+  		  const srcDOM = parser.parseFromString(data, "application/xml"); 
+  		const convertData = xml2json(srcDOM);
+  		return convertData;
+  	}).then (data =>{
+  		//console.log(data.rss.channel.title);
+  		const categoryTitle = data.rss.channel.title;
+  		const titleRemove = categoryTitle.slice(9);
+  		console.log(titleRemove)
+  
+  			/////////////////// CATEGORY
+  			const categoriesTemplate = document.getElementById("template_categories");
+  			const categoriesCardList = document.getElementById("categories_cardList");
+  			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+  
+  			///////////////// BUTTON
+  			const button = cloneCategories.querySelector(".dropbtn");
+  			button.setAttribute("id", "button4");
+  			
+  			////////////////// ARTICLES
+  			const articleCardList = document.querySelector(".articles_cardList");
+  			const articleTemplate = document.getElementById("template_articles");
+  			const cloneArticles = articleTemplate.content.cloneNode(true);
+  			
+  			cloneCategories.querySelector(".title1").innerText = titleRemove;
+  			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+  	
+  			categoriesCardList.appendChild(cloneCategories);
+  			articleCardList.appendChild(cloneArticles);
+  	});
+  
+  
+  
+  /////////////////////////////// TECH //////////////////////////////////////////////////
+  const RSS_URL_Tech = `https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml`;
+  
+  fetch(RSS_URL_Tech)
+    .then(response => response.text())
+    .then((data) => {
+  		  const parser = new DOMParser(); // initialize dom parser
+  		  const srcDOM = parser.parseFromString(data, "application/xml"); 
+  		const convertData = xml2json(srcDOM);
+  		return convertData;
+  	}).then (data =>{
+  		//console.log(data.rss.channel.title);
+  		const categoryTitle = data.rss.channel.title;
+  		const titleRemove = categoryTitle.slice(9);
+  		console.log(titleRemove)
+  
+  			/////////////////// CATEGORY
+  			const categoriesTemplate = document.getElementById("template_categories");
+  			const categoriesCardList = document.getElementById("categories_cardList");
+  			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+  
+  			///////////////// BUTTON
+  			const button = cloneCategories.querySelector(".dropbtn");
+  			button.setAttribute("id", "button5");
+  			
+  			////////////////// ARTICLES
+  			const articleCardList = document.querySelector(".articles_cardList");
+  			const articleTemplate = document.getElementById("template_articles");
+  			const cloneArticles = articleTemplate.content.cloneNode(true);
+  			
+  			cloneCategories.querySelector(".title1").innerText = titleRemove;
+  			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+  	
+  			categoriesCardList.appendChild(cloneCategories);
+  			articleCardList.appendChild(cloneArticles);
+  	});
+  
+  
+  /////////////////////////////// SCIENCE //////////////////////////////////////////////////
+  const RSS_URL_Science = `https://rss.nytimes.com/services/xml/rss/nyt/Science.xml`;
+  
+  fetch(RSS_URL_Science)
+    .then(response => response.text())
+    .then((data) => {
+  		  const parser = new DOMParser(); // initialize dom parser
+  		  const srcDOM = parser.parseFromString(data, "application/xml"); 
+  		const convertData = xml2json(srcDOM);
+  		return convertData;
+  	}).then (data =>{
+  		//console.log(data.rss.channel.title);
+  		const categoryTitle = data.rss.channel.title;
+  		const titleRemove = categoryTitle.slice(9);
+  		console.log(titleRemove)
+  
+  			/////////////////// CATEGORY
+  			const categoriesTemplate = document.getElementById("template_categories");
+  			const categoriesCardList = document.getElementById("categories_cardList");
+  			const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+  
+  			///////////////// BUTTON
+  			const button = cloneCategories.querySelector(".dropbtn");
+  			button.setAttribute("id", "button6");
+  			
+  			////////////////// ARTICLES
+  			const articleCardList = document.querySelector(".articles_cardList");
+  			const articleTemplate = document.getElementById("template_articles");
+  			const cloneArticles = articleTemplate.content.cloneNode(true);
+  			
+  			cloneCategories.querySelector(".title1").innerText = titleRemove;
+  			cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+  	
+  			categoriesCardList.appendChild(cloneCategories);
+  			articleCardList.appendChild(cloneArticles);
+  	});
+  
+  
+  
+  /////////////////////////////// WORLD //////////////////////////////////////////////////
+  const RSS_URL_World = `https://rss.nytimes.com/services/xml/rss/nyt/World.xml`;
+  
+  fetch(RSS_URL_World)
+    .then(response => response.text())
+    .then((data) => {
+  		const parser = new DOMParser(); // initialize dom parser
+  		const srcDOM = parser.parseFromString(data, "application/xml"); 
+  		const convertData = xml2json(srcDOM);
+  		return convertData;
+  	}).then (data =>{
+  		//console.log(data.rss.channel.title);
+  		const categoryTitle = data.rss.channel.title;
+  		const titleRemove = categoryTitle.slice(9);
+  		console.log(data.rss.channel.item[0].title)
+  		
+  		/////////////////// CATEGORY
+  		const categoriesTemplate = document.getElementById("template_categories");
+  		const categoriesCardList = document.getElementById("categories_cardList");
+  		const cloneCategories = categoriesTemplate.content.cloneNode(true); 
+  
+  		///////////////// BUTTON
+  		const button = cloneCategories.querySelector(".dropbtn");
+  		button.setAttribute("id", "button7");
+  		
+  		////////////////// ARTICLES
+  		const articleCardList = document.querySelector(".articles_cardList");
+  		const articleTemplate = document.getElementById("template_articles");
+  		const cloneArticles = articleTemplate.content.cloneNode(true);
+  		
+  		cloneCategories.querySelector(".title1").innerText = titleRemove;
+  		cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+  
+  		categoriesCardList.appendChild(cloneCategories);
+  		articleCardList.appendChild(cloneArticles);
+  	}); */
 });

@@ -36,4 +36,13 @@ display: block;
 display: block;
 }
 
+.textTransform {
+  transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.5); /* Firefox */
+  -ms-transform: scale(1, 1.5); /* IE 9+ */
+  -o-transform: scale(1, 1.5); /* Opera */
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
 

@@ -78,34 +78,51 @@ document.addEventListener("DOMContentLoaded", function () {
     //console.log(data.rss.channel.title);
     var categoryTitle = data.rss.channel.title;
     var titleRemove = categoryTitle.slice(9);
-    console.log(titleRemove); /////////////////// CATEGORY
+    console.log(data.rss.channel); /////////////////// CATEGORY
     ////// INDEX & ARCHIVE
 
     var categoriesTemplate = document.getElementById("template_categories");
     var categoriesCardList = document.getElementById("categories_cardList");
     var cloneCategories = categoriesTemplate.content.cloneNode(true); ///// SETTINGS
 
-    var settingsTemplate = document.getElementById("template_settings");
-    var settingsCardList = document.getElementById("settings_cardList");
-    var cloneSettings = settingsTemplate.content.cloneNode(true); ///////////////// BUTTON
+    /* const settingsTemplate = document.getElementById("template_settings");
+    const settingsCardList = document.getElementById("settings_cardList");
+    const cloneSettings = settingsTemplate.content.cloneNode(true);  */
+    ///////////////// BUTTON
 
-    var button = cloneCategories.querySelector(".dropbtn");
-    button.setAttribute("id", "button1"); ////////////////// ARTICLES
+    /* const button = cloneCategories.querySelector(".dropbtn");
+    button.setAttribute("id", "button1"); */
 
-    var articleCardList = document.querySelector(".articles_cardList");
-    var articleTemplate = document.getElementById("template_articles");
-    var cloneArticles = articleTemplate.content.cloneNode(true); ////////////////////////////// SET DATA
+    var togglers = document.querySelectorAll('.tab');
+
+    for (var i = 0; i < togglers.length; i++) {
+      togglers[i].addEventListener('click', function () {
+        for (var j = 0; j < togglers.length; j++) {
+          togglers[j].classList.remove('show');
+        }
+
+        target.classList.add('show');
+      });
+    } ////////////////// ARTICLES
+
+    /* 	const articleCardList = document.querySelector(".articles_cardList");
+    	const articleTemplate = document.getElementById("template_articles");
+    	const cloneArticles = articleTemplate.content.cloneNode(true); */
+    ////////////////////////////// SET DATA
     ///// TITLE - INDEX, ARCHIVE 
 
+
     cloneCategories.querySelector(".title").innerText = titleRemove;
-    cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title; ///// SETTINGS
+    /* cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title; */
+    ///// SETTINGS
 
     /* cloneSettings.querySelector(".categoryTitle").innerText = titleRemove; */
     ///////////////////////// CLONE
 
     categoriesCardList.appendChild(cloneCategories);
-    articleCardList.appendChild(cloneArticles);
-    settingsCardList.appendChild(cloneSettings);
+    /* 		articleCardList.appendChild(cloneArticles); */
+
+    /* settingsCardList.appendChild(cloneSettings); */
   });
   /* 
   /////////////////////////////////////// HEALTH ////////////////////////////////////////

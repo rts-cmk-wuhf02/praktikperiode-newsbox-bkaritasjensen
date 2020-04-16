@@ -48,7 +48,7 @@ fetch(RSS_URL_HomePage)
 		//console.log(data.rss.channel.title);
 		const categoryTitle = data.rss.channel.title;
 		const titleRemove = categoryTitle.slice(9);
-		console.log(titleRemove)
+		console.log(data.rss.channel)
 
 		/////////////////// CATEGORY
 		////// INDEX & ARCHIVE
@@ -56,32 +56,43 @@ fetch(RSS_URL_HomePage)
 		const categoriesCardList = document.getElementById("categories_cardList");
 		const cloneCategories = categoriesTemplate.content.cloneNode(true); 
 		///// SETTINGS
-		const settingsTemplate = document.getElementById("template_settings");
+		/* const settingsTemplate = document.getElementById("template_settings");
 		const settingsCardList = document.getElementById("settings_cardList");
-		const cloneSettings = settingsTemplate.content.cloneNode(true); 
+		const cloneSettings = settingsTemplate.content.cloneNode(true);  */
 
 
 		///////////////// BUTTON
-		const button = cloneCategories.querySelector(".dropbtn");
-		button.setAttribute("id", "button1");
+		/* const button = cloneCategories.querySelector(".dropbtn");
+		button.setAttribute("id", "button1"); */
+
+		var togglers = document.querySelectorAll('.tab');
+		for (var i = 0; i < togglers.length; i++) {
+    		togglers[i].addEventListener('click', function() {
+        		for(var j = 0; j < togglers.length; j++) {
+            		togglers[j].classList.remove('show');
+        		}
+				
+				target.classList.add('show');
+    		});
+		}
 		
 		////////////////// ARTICLES
-		const articleCardList = document.querySelector(".articles_cardList");
+	/* 	const articleCardList = document.querySelector(".articles_cardList");
 		const articleTemplate = document.getElementById("template_articles");
-		const cloneArticles = articleTemplate.content.cloneNode(true);
+		const cloneArticles = articleTemplate.content.cloneNode(true); */
 
 		////////////////////////////// SET DATA
 		///// TITLE - INDEX, ARCHIVE 
 		cloneCategories.querySelector(".title").innerText = titleRemove;
-		cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
+		/* cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title; */
 		///// SETTINGS
 		/* cloneSettings.querySelector(".categoryTitle").innerText = titleRemove; */
 
 
 		///////////////////////// CLONE
 		categoriesCardList.appendChild(cloneCategories);
-		articleCardList.appendChild(cloneArticles);
-		settingsCardList.appendChild(cloneSettings);
+/* 		articleCardList.appendChild(cloneArticles); */
+		/* settingsCardList.appendChild(cloneSettings); */
 	});
 
 /* 

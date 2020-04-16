@@ -23,20 +23,50 @@ body{
 	content: "\f002";
   }
 /************************* DROPDOWN ****************************/
-.dropdown {
-cursor: pointer;
-outline: none;
-}
-.dropdown-content {
+
+.tab-contents .tab {
 display: none;
 }
-.dropdown-content a {
-display: block;
-}
-.show {
+.tab-contents .tab.show {
 display: block;
 }
 
+/******************* SWITCH ON/OFF **************************/
+input[type="checkbox"]{
+  position: relative;
+  width: 60px;
+  height: 30px;
+  -webkit-appearance: none;
+  background: #C8D1D3;
+  outline: none;
+  border-radius: 20px;
+  
+  transition: .5s;
+}
+input:checked[type="checkbox"]{
+  background-color: #D97D54;
+  
+}
+input[type="checkbox"]:before{
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  background: white;
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
+  transition: .5s;
+}
+input:checked[type="checkbox"]:before{
+  left: 30px;
+}
+
+
+
+/******************* TEXT HEIGHT SETTINGS - THEME *******************/
 .textTransform {
   transform: scale(1, 1.5);
   -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
@@ -46,7 +76,7 @@ display: block;
 }
 
 
-/****** DARK THEME ******/
+/************************** DARK THEME ***************************/
 html[data-theme='dark']{
   color: #D97D54;
   background: #324755;
@@ -76,5 +106,10 @@ html[data-theme='dark'] #theme_darkLine{
 html[data-theme='dark'] #nav_headerText {
   color: #87BCBF !important;
 }
-
+html[data-theme='dark'] #settings_cardList{
+  background: #ECEFF0;
+}
+html[data-theme='dark'] p{
+  color: #D97D54;
+}
 

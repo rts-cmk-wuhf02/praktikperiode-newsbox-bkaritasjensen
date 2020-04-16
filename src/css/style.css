@@ -42,7 +42,26 @@ display: block;
   -moz-transform: scale(1, 1.5); /* Firefox */
   -ms-transform: scale(1, 1.5); /* IE 9+ */
   -o-transform: scale(1, 1.5); /* Opera */
-  font-family: 'Kosugi Maru', sans-serif;
 }
 
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+input[type="checkbox"]:checked ~ .check {
+  background: #87BCBF;
+  box-shadow: 0 0 0 1200px #F0F3F4;
+}
 
+.check:before{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: #87BCBF;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0,5s;
+}

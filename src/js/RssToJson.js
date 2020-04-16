@@ -75,7 +75,7 @@ fetch(RSS_URL_HomePage)
 		cloneCategories.querySelector(".title").innerText = titleRemove;
 		cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title;
 		///// SETTINGS
-		cloneSettings.querySelector(".categoryTitle").innerText = titleRemove;
+		/* cloneSettings.querySelector(".categoryTitle").innerText = titleRemove; */
 
 
 		///////////////////////// CLONE

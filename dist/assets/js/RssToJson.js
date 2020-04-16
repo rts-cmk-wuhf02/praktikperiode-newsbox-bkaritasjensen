@@ -100,7 +100,8 @@ document.addEventListener("DOMContentLoaded", function () {
     cloneCategories.querySelector(".title").innerText = titleRemove;
     cloneArticles.querySelector(".article").innerText = data.rss.channel.item[0].title; ///// SETTINGS
 
-    cloneSettings.querySelector(".categoryTitle").innerText = titleRemove; ///////////////////////// CLONE
+    /* cloneSettings.querySelector(".categoryTitle").innerText = titleRemove; */
+    ///////////////////////// CLONE
 
     categoriesCardList.appendChild(cloneCategories);
     articleCardList.appendChild(cloneArticles);

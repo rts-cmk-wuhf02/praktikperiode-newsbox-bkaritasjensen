@@ -13,19 +13,18 @@
 <body>
 <main>
 	
-<div class="flex justify-between my-20 mx-20">
+<div class="flex justify-start my-20 mx-20">
     <a onclick="goBack()"><i class="fas fa-chevron-left"></i></a>
-    <h1 class="font-bold text-18">Settings</h1>
-    <a href="/settings/index.html"><i class="fas fa-cog"></i></a>
+    <h1 id="nav_headerText" class="ml-100 font-bold text-18">News Settings</h1>
 </div>
 	<section class="text-center bg-white-400 border-t border-white-500 w-full">
 		<h1 class="text-30 font-bold text-green-100 mt-37">Manage</h1>
-		<h5 class="text-white-500">Categories</h5>
-		<div class="border w-35 border-white block"></div>
+		<h4 class="text-white-500">Categories</h4>
+		<div id="theme_darkLine" class="border w-35 border-white block"></div>
 		<div>
 			<div id="settings_cardList" class="mt-60">
 				<div class="w-4/5 flex justify-between items-center">
-					<h5 class="categoryTitle">Heath</h5>
+					<h5 class="categoryTitle">Health</h5>
 					<label>
 						<input type="checkbox">
 						<span class="checked cursor-pointer block bg-white-200 w-50 h-30 rounded-full overflow-hidden transition duration-150 ease-in"></span>
@@ -33,7 +32,7 @@
 				</div><!-----------------------INSÆT TEMPLATE------------------------>
 			</div>
 		</div>
-		<button class="mb-77 mt-100 border-solid border border-white-500 rounded-full w-180 h-50">
+		<button id="theme_button" class="mb-77 mt-100 border-solid border border-white-500 rounded-full w-180 h-50">
 			<p class="text-blue-300 textTransform uppercase text-10 w-173 tracking-wider font-hairline">Toggle dark mode</p>
 		</button>
 	</section>

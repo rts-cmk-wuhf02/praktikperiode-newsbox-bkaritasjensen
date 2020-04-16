@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var currentTheme = localStorage.getItem('current-theme');
   document.documentElement.setAttribute('data-theme', currentTheme); // CHECK TEMA ELLER ÆNDRE
 
-  var checkTheme = document.querySelector(".change-theme");
+  var checkTheme = document.getElementById("theme_button");
   checkTheme.addEventListener("click", function () {
     if (document.documentElement.dataset.theme == "light") {
       document.documentElement.setAttribute('data-theme', 'dark');

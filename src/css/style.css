@@ -7,6 +7,7 @@ body{
 	font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   color: #1B1C20;
+  transition: all 0.15s ease-out;
 }
 /************************* ICON I SØGEFELTET ****************************/
 .icon::before {
@@ -44,24 +45,36 @@ display: block;
   -o-transform: scale(1, 1.5); /* Opera */
 }
 
-input[type="checkbox"]{
-  -webkit-appearance: none;
-  visibility: hidden;
-  display: none;
+
+/****** DARK THEME ******/
+html[data-theme='dark']{
+  color: #D97D54;
+  background: #324755;
+  transition: all 0.15s ease-out;
 }
-input[type="checkbox"]:checked ~ .check {
-  background: #87BCBF;
-  box-shadow: 0 0 0 1200px #F0F3F4;
+html[data-theme='dark'] #theme_button{
+  background: #324755;
+}
+html[data-theme='dark'] #theme_button p{
+  color: #D97D54;
+}
+html[data-theme='dark'] section{
+  background: #B9B0A2;
+}
+html[data-theme='dark'] h1{
+  color: #D97D54;
+}
+html[data-theme='dark'] h5{
+  color: #D97D54;
+}
+html[data-theme='dark'] i{
+  color: #D97D54;
+}
+html[data-theme='dark'] #theme_darkLine{
+  border-color: #D97D54;
+}
+html[data-theme='dark'] #nav_headerText {
+  color: #87BCBF !important;
 }
 
-.check:before{
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  background: #87BCBF;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  transition: 0,5s;
-}
+

@@ -27,23 +27,27 @@
 
 </main>
 <template id="template_categories">
-	<div class="dropdown border-white-200 border-b">
-			<button data-toggle="tab" class="dropbtn flex items-center my-10">
+	<div class="border-white-200 border-b">
+		<div>
+			<button class="dropbtn flex items-center my-10">
 				<div class="flex items-center">
 					<div class="w-35 h-35 flex bg-white shadow-x rounded-full items-center mx-10">
 						<img class="m-auto block" src="/assets/images/icn_surfing.png" alt="Icon category">
 					</div>
-					<p class="title uppercase font-extrabold tracking-wide"></p>
+					<p class="setTitle uppercase font-extrabold tracking-wide"></p>
 				</div>
-				<i class=" fas fa-chevron-right"></i>
+				<i class="fas fa-chevron-right"></i>
 			</button>
-		<div class="tab-contents dropdown-content articles_cardList" id="myDropdown">
-			<p class="tab">Hej</p>
-			
+		</div>
+		<div id="buttonCategory" class="dropdown-content articles_cardList">
+			<ul>
+				<li class="TextTest">Hej</li>
+			</ul>
 			<!-----------------------INSÆT CARDLIST HER -------------------------->
 		</div>
 	</div> 
 </template>
+
 
 
 <!-- <template id="template_articles" class="tab">
@@ -55,9 +59,8 @@
 
 	
 
-<script src="/assets/js/tema.js"></script>
 <script src="/assets/js/RssToJson.js"></script>
-<script src="/assets/js/dropdown.js"></script>
+<script src="/assets/js/tema.js"></script>
 <footer>
 	
 </footer>

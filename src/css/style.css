@@ -24,11 +24,11 @@ body{
   }
 /************************* DROPDOWN ****************************/
 
-.tab-contents .tab {
-display: none;
+.articles_cardList {
+  display: none;
 }
-.tab-contents .tab.show {
-display: block;
+.show {
+  display: block;
 }
 
 /******************* SWITCH ON/OFF **************************/
@@ -44,7 +44,7 @@ input[type="checkbox"]{
   transition: .5s;
 }
 input:checked[type="checkbox"]{
-  background-color: #D97D54;
+  background-color: #87BCBF;
   
 }
 input[type="checkbox"]:before{
@@ -74,7 +74,6 @@ input:checked[type="checkbox"]:before{
   -ms-transform: scale(1, 1.5); /* IE 9+ */
   -o-transform: scale(1, 1.5); /* Opera */
 }
-
 
 /************************** DARK THEME ***************************/
 html[data-theme='dark']{

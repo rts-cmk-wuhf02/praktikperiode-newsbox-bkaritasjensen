@@ -10635,11 +10635,11 @@ body{
 
 /************************* DROPDOWN ****************************/
 
-.tab-contents .tab {
+.articles_cardList {
   display: none;
 }
 
-.tab-contents .tab.show {
+.show {
   display: block;
 }
 
@@ -10657,7 +10657,7 @@ input[type="checkbox"]{
 }
 
 input:checked[type="checkbox"]{
-  background-color: #D97D54;
+  background-color: #87BCBF;
 }
 
 input[type="checkbox"]:before{
